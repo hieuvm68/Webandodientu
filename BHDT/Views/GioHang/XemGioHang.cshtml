@@ -1,0 +1,151 @@
+﻿@using BHDT.Models
+@model List<itemGioHang>
+@{
+    ViewBag.Title = "XemGioHang";
+    Layout = "~/Views/Shared/_LayoutCart.cshtml";
+
+
+}
+
+@if (Model.Count == 0 )
+{
+
+    <div style="display:flex" class="empty-cart">
+
+        <div class="empty-cart__img"></div>
+        <div class="empty-cart__msg">Giỏ hàng của bạn còn trống</div>
+        <a href="/Home" class="empty-cart__link">
+            <button type="submit" class="empty-cart__link-btn clear-btn">MUA NGAY</button>
+        </a>
+
+    </div>
+
+}
+else
+{
+
+    <div class="grid wide" style="padding-bottom: 25px;">
+        <div class="cart-suggestion">
+            <i class="fas fa-truck-loading"></i>
+            <span>Giỏ Hàng Của Bạn</span>
+        </div>
+
+        <!-- Cart product header -->
+        <div class="cart-page-product-header hide-on-mobile-tablet">
+            <span class="cart-page-product-header__product">
+                <i class="fas fa-cart-arrow-down"></i>
+                Sản Phẩm
+            </span>
+            <span class="cart-page-product-header__unit-price">Đơn Giá</span>
+            <span class="cart-page-product-header__qnt">Số Lượng</span>
+            <span class="cart-page-product-header__total-price">Số Tiền</span>
+            <span class="cart-page-product-header__action">Thao Tác</span>
+        </div>
+
+        <!-- Cart shop content-->
+        <div class="cart-page-shop-container">
+            <div class="cart-page-shop__container-items">
+                <div class="cart-bundle">
+                    <div class="cart-bundle__header hide-on-mobile">
+
+
+
+                    </div>
+
+                    @foreach (var item in Model)
+                    {
+                        <div class="cart-item-container">
+                            <div class="cart-item">
+                                @*<div class="shop-checkbox shop-checkbox-sup">
+                                    <input class="shop-checkbox__input" type="checkbox">
+                                    <div class="shop-checkbox__bgc"></div>
+                                </div>*@
+
+                                <div class="cart-item__overview">
+                                    <a href="#" class="cart-item__overview-img-link">
+                                        <img class="cart-item__overview-img" src="@Url.Content(item.HinhAnh)">
+                                    </a>
+                                    <a href="#" class="cart-item__overview-name">@item.TenSP</a>
+                                </div>
+
+                                <div class="cart-item__variations">
+                                    <div class="cart-item__variation-label">
+                                        Mã hàng:
+                                        <button class="cart-item__variation-btn-arrow">
+                                            @*<i class="cart-item__variation-icon-arrow-down fas fa-sort-down"></i>*@
+                                        </button>
+                                    </div>
+                                    <div class="cart-item__variation-model">@item.MaSP</div>
+                                </div>
+
+                                <div class="cart-item__price" style="width: 11.88022%; ">
+
+                                    <div class="cart-item__price-current">@item.DonGia.ToString("###,#đ")</div>
+                                </div>
+
+                                <div class="shop__qnt-btns" style="margin-right: 10px;">
+                                    @*<button class="shop__qnt-btn shop__qnt-btn--dec">
+                                        <i class="shop__qnt-btn-icon fas fa-minus"></i>
+                                    </button>*@
+                                    <input class="shop__qnt-input" type="text" value="@item.SoLuong" />
+                                    @*<button class="shop__qnt-btn shop__qnt-btn--inc">
+                                        <i class="shop__qnt-btn-icon fas fa-plus"></i>
+                                    </button>*@
+                                </div>
+
+                                <div class="cart-item__price-total" style="width: 8.88022%; ">@item.ThanhTien.ToString("###,#đ")</div>
+
+                                <div class="cart-item__actions" style="padding-left: 80px;">
+                                    <a href="@Url.Action("XoaGioHang", "GioHang", new { @MaSP = item.MaSP })" class="cart-item__action-remove">Xóa</a>
+                                    <a href="@Url.Action("SuaGioHang", "GioHang", new { @MaSP = item.MaSP })" class="cart-item__action-search">
+                                        <span class="cart-item__action-search-title">Chỉnh Sửa Giỏ Hàng</span>
+                                        <i class="cart-item__action-search-icon fas fa-sort-down"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+        <!-- Cart page footer -->
+        <div class="cart-page-footer">
+            <div class="cart-page-footer__row3">
+                <div class="cart-page-footer__actions">
+                    @*<div id="shop-checkbox-all" class="shop-checkbox">
+                <input class="shop-checkbox__input" type="checkbox">
+                <div class="shop-checkbox__bgc"></div>
+            </div>
+            <button class="cart-page-footer__actions-btn cart-page-footer__select-all clear-btn">
+                Tất cả
+                <span class="hide-on-mobile-tablet">
+                    (<span class="qnt">0</span>)
+                </span>
+            </button>*@
+                </div>
+
+                <div class="cart-page-footer__summary">
+                    <div class="cart-page-footer__summary-total">
+                        <div class="cart-page-footer__summary-total-text">
+                            Tổng tiền
+                            <span class="hide-on-mobile-tablet">(<span class="qnt"> @ViewBag.TongSoLuong</span> sản phẩm):</span>
+                        </div>
+                        <div class="cart-page-footer__summary-total-amount"> @ViewBag.TinhTongTien</div>
+                    </div>
+                </div>
+                @using (Html.BeginForm("MuaNgay", "GioHang"))
+                {
+                    <button class="cart-page-footer__checkout clear-btn">Mua hàng</button>
+                }
+
+
+            </div>
+        </div>
+    </div>
+    @*<div class="toast-msg-container">
+    </div>*@
+
+}
+
+
+

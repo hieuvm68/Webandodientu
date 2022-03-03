@@ -1,0 +1,421 @@
+﻿@using BHDT.Models
+@model IEnumerable<BHDT.Models.SanPham>
+@{ //IEnumerable<SANPHAM> lstLap = (IEnumerable<SANPHAM>)ViewBag.ListLAPTOP; ep kieu 1
+    IEnumerable<SanPham> listSP = ViewBag.ListSP as IEnumerable<SanPham>;
+    IEnumerable<SanPham> lstPB = ViewBag.ListPB as IEnumerable<SanPham>;
+    IEnumerable<SanPham> lstMN = ViewBag.ListMN as IEnumerable<SanPham>;
+    IEnumerable<SanPham> lstBC = ViewBag.ListBC as IEnumerable<SanPham>; }
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>DHQ-Shop</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>B2 Shop</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/product-info.css" />
+    <link rel="stylesheet" href="~/Content/PagedList.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/base.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/main.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/grid.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/responsive.css" />
+    <link rel="stylesheet" href="~/fonts/fontawesome-free-5.14.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, sans-serif;
+        }
+
+        .mySlides {
+            display: none;
+            height:100%
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        .slideshow-container {
+            max-width: 100%;
+            position: relative;
+            /* margin: auto; */
+        }
+        /* .active {
+            background-color: #717171;
+        } */
+
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 2s;
+        }
+
+        @@-webkit-keyframes fade {
+            from {
+                opacity: .4
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+        @@keyframes fade {
+            from {
+                opacity: .4
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+        @@media only screen and (max-width: 300px) {
+            .text {
+                font-size: 11px
+            }
+        }
+    </style>
+    <div class="app">
+        <header class="header">
+            @Html.Partial("~/Views/Shared/_LayoutDKDN.cshtml")
+        </header>
+        <marquee direction="up" @*onmouseover="this.stop()" onmouseout="this.start()=10"*@ scrollamount="4" scrolldelay="5" style="  color: red; font-size: 1.8rem; font-weight: 600; display:flex;justify-content:center">Chào Mừng Các Bạn Tới Shop Bán Đồ Điện Tử Của Nhóm Mình</marquee>
+        <div class="app__container">
+            <div class="grid wide">
+                <div style="padding:0" class="row sm-gutter app__content">
+
+                    @RenderBody()
+
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="footer">
+            <div class="grid wide footer__content">
+                <div class="row">
+                    <div class="col l-2-4 m-4 c-6">
+                        <div class="footer__heading">Chăm sóc khách hàng</div>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">B2-Shop</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <div class="footer__heading">Giới thiệu</div>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Giới thiệu</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Tuyển dụng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Điều khoản</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <div class="footer__heading">Danh mục</div>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Đồ chơi</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Xe đua</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Gấu bông</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <div class="footer__heading">Theo dõi chúng tôi</div>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-twitter-square"></i>
+                                    Twitter
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-8 c-12">
+                        <div class="footer__heading">Vào cửa hàng trên ứng dụng</div>
+                        <div class="footer__download">
+                            <img src="~/Images/logo-may-tinh(42).png" alt="Download QR" class="footer__download-qr">
+                            <div class="footer__download-apps">
+                                <a href="" class="footer__download-app-link">
+                                    <img src="~/Images/google_play.png" alt="Google play"
+                                         class="footer__download-app-img">
+                                </a>
+                                <a href="" class="footer__download-app-link">
+                                    <img src="~/Images/app_store.png" alt="App store"
+                                         class="footer__download-app-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <div class="grid wide">
+                    <p class="footer__text">© 2020 - Bản quyền thuộc về Minecraft-Shop</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="modal">
+        <div class="modal__overlay"></div>
+
+        <div class="modal__body">
+            <!-- Register Form -->
+            @using (Html.BeginForm("Dangky", "Home"))
+            {
+
+<div id="register-form" class="auth-form">
+
+    <div class="auth-form__container">
+        <div class="auth-form__header">
+            <div class="auth-form__heading">Đăng ký</div>
+        </div>
+
+        <div class="auth-form__groups">
+
+            <div class="auth-form__group">
+                <input id="email" name="Email" rule="email" type="text" class="auth-form__input" placeholder="Địa Chỉ Email Của Bạn" />
+            </div>
+            <div class="auth-form__group">
+                <input id="password" name="Password" rule="password" type="password" class="auth-form__input" placeholder="Mật khẩu của bạn" />
+            </div>
+            <div class="auth-form__group">
+                <input id="password_confirmation" name="Password_confirmation" rule="password_confirmation" type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu của bạn" /><span class="auth-form__message"></span>
+            </div>
+        </div>
+
+
+
+        <div class="auth-form__aside">
+            <p class="auth-form__policy-text">
+                Bằng việc đăng ký, bạn đã đồng ý với DHQ Shop
+                <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+                <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+            </p>
+
+            <div class="auth-form__switch-wrapper">
+                <span class="auth-form__switch-text">Bạn đã có tài khoản?</span>
+                <span class="auth-form__switch-btn">Đăng nhập</span>
+            </div>
+            <div style="font-weight:200;font-size:12px;color:red;text-align:center; padding-top:10px" id="thongdkbaoloi"></div>
+
+        </div>
+
+        <div class="auth-form__controls">
+            <button class="btn auth-form__controls-back">TRỞ LẠI</button>
+            <button type="submit" class="btn btn--primary">ĐĂNG KÝ</button>
+        </div>
+
+    </div>
+
+    <div class="auth-form__socials">
+        <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+            <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+            <span class="auth-form__socials-title">
+                Kết nối với Facebook
+            </span>
+        </a>
+        <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+            <i class="auth-form__socials-icon fab fa-google"></i>
+            <span class="auth-form__socials-title">
+                Kết nối với Google
+            </span>
+        </a>
+    </div>
+</div>}
+            <!-- Login Form -->
+            <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+            @using (Ajax.BeginForm("DangNhap", "Home", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "thongbaoloi" }))
+            {
+<div id="login-form" class="auth-form">
+
+    <div class="auth-form__container">
+        <div class="auth-form__header">
+            <div class="auth-form__heading">Đăng nhập</div>
+        </div>
+
+        <div class="auth-form__groups">
+
+            <div class="auth-form__group">
+                <input id="email" rule="username" name="email" type="text" class="auth-form__input" placeholder="Email của bạn" />
+            </div>
+            <div class="auth-form__group">
+                <input id="password" rule="password" name="password" type="password" class="auth-form__input" placeholder="Mật khẩu của bạn" />
+            </div>
+        </div>
+
+        <div class="auth-form__aside">
+            <div class="auth-form__help">
+                <a href="" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+                <span class="auth-form__help-separate"></span>
+                <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+            </div>
+        </div>
+
+        <div class="auth-form__controls">
+            <button class="btn auth-form__controls-back-1">TRỞ LẠI</button>
+
+            <button class="btn btn--primary">ĐĂNG NHẬP</button>
+
+        </div>
+        <div style="font-weight:200;font-size:12px;color:red;text-align:center; padding-top:10px" id="thongbaoloi"></div>
+
+        <div class="auth-form__switch-wrapper">
+            <span class="auth-form__switch-text">Bạn chưa có tài khoản?</span>
+            <span class="auth-form__switch-btn">Đăng ký</span>
+        </div>
+    </div>
+
+
+    <div class="auth-form__socials">
+        <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+            <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+            <span class="auth-form__socials-title">
+                Kết nối với Facebook
+            </span>
+        </a>
+        <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+            <i class="auth-form__socials-icon fab fa-google"></i>
+            <span class="auth-form__socials-title">
+                Kết nối với Google
+            </span>
+        </a>
+    </div>
+</div>}
+
+
+        </div>
+    </div>
+    <script type="text/javascript">
+        // handle register and login forms
+        function handleForms() {
+            let regItem = document.getElementById('register-item'); // get element of register item
+            let logItem = document.getElementById('login-item'); // get element of register item
+
+            let modalLayer = document.querySelector('.modal'); // get element of modal layer
+
+            let regForm = document.getElementById('register-form'); // get element of register form
+            let logForm = document.getElementById('login-form'); // get element of login form
+
+            let regToLogBtn = document.querySelector('#register-form .auth-form__switch-btn'); // get element of login button from register form
+            let logToRegBtn = document.querySelector('#login-form .auth-form__switch-btn'); // get element of register button from login form
+
+            // change the forms
+            function changeForms(showForm, hideForm) {
+                modalLayer.style.display = 'flex';
+                showForm.style.display = 'block';
+                hideForm.style.display = 'none';
+            }
+
+            // handle register form
+            regItem.onclick = () => {
+                Validator('#register-form', '.auth-form__group', 3);
+                changeForms(regForm, logForm);
+            }
+
+            // switch to login form
+            regToLogBtn.onclick = () => {
+                Validator('#login-form', '.auth-form__group', 3);
+                changeForms(logForm, regForm);
+            }
+
+            // handle login form
+            logItem.onclick = () => {
+                Validator('#login-form', '.auth-form__group', 3);
+                changeForms(logForm, regForm);
+            }
+
+            // switch to register form
+            logToRegBtn.onclick = () => {
+                Validator('#register-form', '.auth-form__group', 3);
+                changeForms(regForm, logForm);
+            }
+
+            // get element of overlay and remove the modal layer when clicked outside
+            document.querySelector('.modal__overlay').onclick = () => {
+                Validator('#register-form', '.auth-form__group', 3, ' ');
+                Validator('#login-form', '.auth-form__group', 3, ' ');
+                modalLayer.style.display = 'none';
+            }
+            document.querySelector('.auth-form__controls-back-1').onclick = () => {
+                Validator('#register-form', '.auth-form__group', 3, ' ');
+                Validator('#login-form', '.auth-form__group', 3, ' ');
+                modalLayer.style.display = 'none';
+            }
+            document.querySelector('.auth-form__controls-back').onclick = () => {
+                Validator('#register-form', '.auth-form__group', 3, ' ');
+                Validator('#login-form', '.auth-form__group', 3, ' ');
+                modalLayer.style.display = 'none';
+            }
+
+        }
+
+        handleForms();</script>
+    <script type="text/javascript">
+        function Validator(form, childForm, min, str) {
+            let formEl = document.querySelector(form); // get element of form
+
+
+
+            // handle when submit form
+            formEl.onsubmit = (e) => {
+                e.preventDefault();
+
+                // check all forms before submitting
+                for (let inpEl of inpEls) {
+                    if (inpEl.value) {
+                        ruleChecking(inpEl);
+                    } else {
+                        messageAdding(inpEl, str || 'Vui lòng nhập trường này', str || 'red');
+                    }
+                }
+            }
+        }</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+﻿@using BHDT.Models
+<nav class="header__navbar hide-on-mobile-tablet">
+    <ul class="header__navbar-list">
+        <li class="header__navbar-item header__navbar-item-separate">
+            <a class="header__navbar-item-link" href="/Home">
+                Trang Mua Hàng
+            </a>
+        </li>
+
+        <li class="header__navbar-item header__navbar-item-has-qr header__navbar-item-separate">
+            Tải ứng dụng
+            <!-- Header QR code -->
+            <div class="header__qr">
+                <img style="height:150px;width:150px" src="~/Images/logo-may-tinh(42).png" alt="QR code" class="header__qr-img" />
+                <div class="header__qr-apps">
+                    <a class="header__qr-link">
+                        <img src="~/Images/google_play.png" alt="Google Play"
+                             class="header__qr-dowload-img">
+                    </a>
+                    <a class="header__qr-link">
+                        <img src="~/Images/app_store.png" alt="App Store"
+                             class="header__qr-dowload-img">
+                    </a>
+                </div>
+            </div>
+        </li>
+
+        <li class="header__navbar-item">
+            <span class="header__navbar-title--no-pointer">Kết nối</span>
+            <a href="" class="header__navbar-icon-link">
+                <i class="header__navbar-icon fab fa-facebook"></i>
+            </a>
+            <a href="" class="header__navbar-icon-link">
+                <i class="header__navbar-icon fab fa-instagram"></i>
+            </a>
+        </li>
+    </ul>
+
+    <ul class="header__navbar-list">
+        <li class="header__navbar-item header__navbar-item--has-notify">
+            <a class="header__navbar-item-link">
+                <i class="header__navbar-icon far fa-bell"></i>
+                Thông Báo
+            </a>
+            <div class="header__notify">
+                <ul class="header__notify-header">
+                    Thông báo mới nhận
+                </ul>
+                <ul class="header__notify-list">
+                    <li class="header__notify-item header__notify-item--viewed">
+                        <a href="" class="header__notify-link">
+                            <img src="https://cdn.europosters.eu/image/750webp/84830.webp" alt=""
+                                 class="header__notify-img">
+                            <div class="header__notify-info">
+                                <span class="header__notify-name">123123213</span>
+                                <span class="header__notify-description">Mô tả sản phẩm</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="header__notify-footer">
+                        <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="header__navbar-item">
+            <a class="header__navbar-item-link">
+                <i class="header__navbar-icon far fa-question-circle"></i>
+                Trợ Giúp
+            </a>
+        </li>
+        @if (Session["email"] != null)
+        {
+            TaiKhoan kh = (TaiKhoan)Session["email"];
+
+            
+            <li class="header__navbar-item header__navbar-user">
+
+                <span class="header__navbar-user-name">Chào @kh.Email</span>
+                <img src="@Url.Content("~/Images/"+kh.ImageUser)" alt="" class="header__navbar-user-img">
+                <ul class="header__navbar-user-menu">
+                    <li class="header__navbar-user-item">
+                        <a href="@Url.Action("Prfile","Home",new{ idkh = kh.MaTK }, null)">Tài khoản của tôi</a>
+                    </li>
+                  
+                    <li class="header__navbar-user-item">
+                        <a href="@Url.Action("DonChuaDuyet","Home",new{ idkh = kh.MaTK }, null)">Đơn mua</a>
+                    </li>
+                    <li class="header__navbar-user-item header__navbar-user-item--separate ">
+                        @Html.ActionLink("Đăng Xuất", "DangXuat", "Home")
+                    </li>
+                </ul>
+            </li>
+
+        }
+        else
+        {
+            <li class=" header__navbar-item header__navbar-item-separate"><a style="margin-top:3px" href="#" id="register-item" class="header__navbar-item-link">Đăng Ký</a></li>
+            <li class=" header__navbar-item"><a style="margin-top:3px" href="#" id="login-item" class="header__navbar-item-link ">Đăng Nhập</a></li>
+
+        }
+
+
+    </ul>
+
+
+</nav>
+
+
+<input type="checkbox" hidden class="nav__input" id="nav-mobile-input">
+
+<label for="nav-mobile-input" class="nav__overlay"></label>

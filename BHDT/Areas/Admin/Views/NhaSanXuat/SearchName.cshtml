@@ -1,0 +1,56 @@
+﻿@model IEnumerable<BHDT.Models.NhaSanXuat>
+<h2>SearchName</h2>
+@{
+    ViewBag.Title = "SearchName";
+}
+
+@using (Html.BeginForm("SearchName", "NhaSanXuat", FormMethod.Get))
+{
+    @Html.TextBox("searchString")<input type="submit" value="Search" />
+}
+@*<h2>SearchName</h2>*@
+@if (Model.Count() == 0)
+{
+    <tr>
+        <td colspan="3" style="color:red">
+            Không tìm thấy kết quả...!
+        </td>
+    </tr>
+}
+else
+{
+    <table class="table table-bordered table-hover">
+        <tr>
+            <th>
+                Tên NSX
+            </th>
+            <th>
+                Thông Tin
+            </th>
+            <th>
+                Logo
+            </th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TenNSX)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ThongTin)
+                </td>
+                <td>
+                    @*@Html.DisplayFor(modelItem => item.Logo)*@
+                    <img src="@item.Logo" width="80" height="80" />
+                </td>
+                <td>
+                    @Html.ActionLink("Chỉnh sửa", "Edit", new { id = item.MaNSX }) |
+                    @Html.ActionLink("Chi tiết", "Details", new { id = item.MaNSX }) |
+                    @Html.ActionLink("Xoá", "Delete", new { id = item.MaNSX })
+                </td>
+            </tr>
+        }
+    </table>
+}

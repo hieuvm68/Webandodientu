@@ -1,0 +1,85 @@
+﻿@using BHDT.Models;
+@using PagedList;
+@using PagedList.Mvc;
+@model IPagedList<BHDT.Models.SanPham>
+@{
+    ViewBag.Title = "lstSP";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+<!--menu danh muc-->
+<div class="col l-2 m-0 c-0">
+    <div class="category-pc">
+        @{ Html.RenderAction("MenuPartial", "Home");}
+
+    </div>
+</div>
+<div class="col l-10 m-12 c-12">
+    <div class="home-filter hide-on-mobile-tablet">
+        <span class="home-filter__label">Sắp xếp theo</span>
+        <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+
+        <div class="select-input">
+            <span class="select-input__label">Giá</span>
+            <i class="select-input__icon fas fa-angle-down"></i>
+            <ul class="select-input__list">
+                <li class="select-input__item">
+                    Giá: Thấp đến cao
+                </li>
+                <li class="select-input__item">
+                    Giá: Cao đến thấp
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="home-product">
+        <div class="row sm-gutter">
+
+            <!--xu li list product-->
+
+            @foreach (var item in Model.OrderBy(n => n.DonGia))
+            {
+                double tien = 0;
+                if (item.DonGia != null)
+                {
+                    tien = (double)item.DonGia;
+                }
+
+
+                <div class="col l-2-4 m-4 c-6">
+                    <a href="@Url.Action("CTSP","Home",new{ idsp = item.MaSP }, null)" class="home-product-item">
+                        @*@Html.ActionLink("asdsad", "CTSP", "Home", new { idsp = item.MaSP }, null)*@
+                        <img src="@Url.Content("~"+item.HinhAnh)" class="home-product-item__img">
+                        <div class="home-product-item__name"> @Html.DisplayFor(model => item.TenSP) </div>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-current">@tien.ToString("###,#d")</span>
+                        </div>
+                        @*<div class="home-product-item__action">
+                                <div class="home-product-item__rating">
+                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+
+                            </div>
+                            <div class="product-favourite">
+                                <i class="fas fa-check"></i>
+                                <span>Yêu Thích</span>
+                            </div>*@
+
+                    </a>
+                </div>
+            }
+
+
+        </div>
+    </div>
+    @Html.PagedListPager(Model, page => Url.Action("ListProductPartialLSP", "Home", new { page })@*PagedListRenderOptions.EnableUnobtrusiveAjaxReplacing(new AjaxOptions()
+        { HttpMethod = "Get", UpdateTargetId = "pagination-item__link pagination-item--active" })*@)
+</div>
+
+
+
+

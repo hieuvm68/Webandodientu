@@ -1,0 +1,30 @@
+﻿var feild = document.querySelector('textarea');
+var backUp = feild.getAttribute('placeholder');
+var btn = document.querySelector('.btn');
+var clear = document.getElementById('clear')
+
+feild.onfocus = function(){
+    this.setAttribute('placeholder', '');
+    this.style.borderColor = '#333';
+    btn.style.display = 'block'
+}
+
+feild.onblur = function(){
+    this.setAttribute('placeholder',backUp);
+    this.style.borderColor = '#aaa'
+}
+
+clear.onclick = function(){
+    btn.style.display = 'none';
+    feild.value = '';
+}
+// xử lí truyền ảnh lên máy
+function ChangeImage(UploadImage, previewing) {
+    if (UploadImage.file && UploadImage.file[0]) {
+        var reader = new FileReader();
+        reader.onload = function (e) {
+            $(previewing).attr('src', e.target.ressult)
+        }
+        reader.readAsDataURL(UploadImage.file[0]);
+    }
+}

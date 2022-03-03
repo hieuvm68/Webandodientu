@@ -1,0 +1,241 @@
+﻿@using BHDT.Models
+@model itemGioHang
+@{
+    ViewBag.Title = "SuaGioHang";
+    Layout = "~/Views/Shared/_LayoutCart.cshtml";
+}
+
+@{
+    List<itemGioHang> lstGioHang = ViewBag.GioHang as List<itemGioHang>;
+}
+@foreach (var item in lstGioHang)
+{
+    //San pham cos mã sản phẩm được chỉnh gửi từ tham số trang xem giỏ hàng
+    if (Model.MaSP == item.MaSP)
+    {
+        using (Html.BeginForm("CapNhatGioHang", "GioHang"))
+        {<div class="grid wide" style="padding-bottom: 25px;">
+                <div class="cart-suggestion">
+                    <i class="fas fa-truck-loading"></i>
+                    <span>Giỏ Hàng Của Bạn</span>
+                </div>
+
+                <!-- Cart product header -->
+                <div class="cart-page-product-header hide-on-mobile-tablet">
+                    <span class="cart-page-product-header__product">
+                        <i class="fas fa-cart-arrow-down"></i>
+                        Sản Phẩm
+                    </span>
+                    <span class="cart-page-product-header__unit-price">Đơn Giá</span>
+                    <span class="cart-page-product-header__qnt">Số Lượng</span>
+                    <span class="cart-page-product-header__total-price">Số Tiền</span>
+                    <span class="cart-page-product-header__action">Thao Tác</span>
+                </div>
+
+                <!-- Cart shop content-->
+                <div class="cart-page-shop-container">
+
+
+                    <div class="cart-page-shop__container-items">
+                        <div class="cart-bundle">
+                            <div class="cart-bundle__header hide-on-mobile">
+
+
+
+                            </div>
+
+                            <div class="cart-item-container">
+
+                                <div class="cart-item">
+                                    <div class="shop-checkbox shop-checkbox-sup">
+                                        <input class="shop-checkbox__input" type="checkbox">
+                                        <div class="shop-checkbox__bgc"></div>
+                                    </div>
+
+                                    <div class="cart-item__overview">
+                                        <a href="#" class="cart-item__overview-img-link">
+                                            <img class="cart-item__overview-img" src="@Url.Content(item.HinhAnh)">
+                                        </a>
+                                        <a href="#" class="cart-item__overview-name">@item.TenSP</a>
+                                    </div>
+
+                                    <div class="cart-item__variations">
+                                        <div class="cart-item__variation-label">
+                                            Mã hàng:
+                                            <button class="cart-item__variation-btn-arrow">
+                                                @*<i class="cart-item__variation-icon-arrow-down fas fa-sort-down"></i>*@
+                                            </button>
+                                        </div>
+                                        <div class="cart-item__variation-model">@item.MaSP @Html.Hidden("MaSP", item.MaSP)</div>
+                                    </div>
+
+                                    <div class="cart-item__price" style="width: 11.88022%; ">
+
+                                        <div class="cart-item__price-current">@item.ThanhTien.ToString("###,#đ")</div>
+                                    </div>
+
+                                    <div class="shop__qnt-btns" style="margin-right: 10px;">
+                                        @*<button class="shop__qnt-btn shop__qnt-btn--dec">
+
+                                            </button>*@
+                                        @*<input class="shop__qnt-input" type="text" value="@item.SoLuong"/>*@@Html.TextBox("SoLuong", item.SoLuong, new { @class = "shop__qnt-input" })
+                                        @*<button class="shop__qnt-btn shop__qnt-btn--inc">
+
+                                            </button>*@
+                                    </div>
+
+                                    <div class="cart-item__price-total" style="width: 8.88022%; ">@item.ThanhTien</div>
+
+                                    <div class="cart-item__actions" style="padding-left: 80px;">
+                                        <a href="@Url.Action("XoaGioHang","GioHang",new { @MaSP=item.MaSP})" class="cart-item__action-remove">Xóa</a>
+                                        <button type="submit" class="cart-item__action-remove">Cập nhật</button>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <!-- Cart page footer -->
+                <div class="cart-page-footer">
+
+
+                    <!-- <div class="cart-page-footer__row2">
+                        <div class="cart-page-footer__checkbox hide-on-mobile">
+                            <div class="shop-checkbox shop-checkbox--disabled">
+                                <input class="shop-checkbox__input" type="checkbox">
+                                <div class="shop-checkbox__bgc"></div>
+                            </div>
+                        </div>
+
+                        <div class="cart-page-footer__title disabled">
+                            <i class="cart-page-footer__title-icon-label blur-item fas fa-donate"></i>
+                            <div class="cart-page-footer__title-name blur-item hide-on-mobile">Minecraft Xu</div>
+                            <div class="cart-page-footer__title-message">Bạn chưa có Minecraft Xu</div>
+                            <i class="cart-page-footer__title-icon-question far fa-question-circle"></i>
+                        </div>
+                        <div class="cart-page-footer__value hide-on-mobile">-₫0</div>
+                    </div> -->
+                    <!-- <div class="cart-page-footer__row3">
+                        <div class="cart-page-footer__actions">
+                            <div id="shop-checkbox-all" class="shop-checkbox">
+                                <input class="shop-checkbox__input" type="checkbox">
+                                <div class="shop-checkbox__bgc"></div>
+                            </div>
+                            <button class="cart-page-footer__actions-btn cart-page-footer__select-all clear-btn">Chọn tất cả (<span class="qnt">0</span>)</button>
+                            <button class="cart-page-footer__actions-btn cart-page-footer__remove clear-btn">Xóa</button>
+                            <button class="cart-page-footer__actions-btn cart-page-footer__save clear-btn">Lưu vào mục Đã thích</button>
+                        </div>
+
+                        <div class="cart-page-footer__summary">
+                            <div class="cart-page-footer__summary-total">
+                                <div class="cart-page-footer__summary-total-text">Tổng tiền hàng (<span class="qnt">0</span> sản phẩm):</div>
+                                <div class="cart-page-footer__summary-total-amount">₫0</div>
+                            </div>
+                            <div class="cart-page-footer__summary-bonus">Nhận thêm: 0 Xu</div>
+                        </div>
+
+                        <button class="cart-page-footer__checkout clear-btn">Mua Hàng</button>
+                    </div> -->
+                    <div class="cart-page-footer__row3">
+                        <div class="cart-page-footer__actions">
+                            @*<div id="shop-checkbox-all" class="shop-checkbox">
+                <input class="shop-checkbox__input" type="checkbox">
+                <div class="shop-checkbox__bgc"></div>
+            </div>
+            <button class="cart-page-footer__actions-btn cart-page-footer__select-all clear-btn">
+                Tất cả
+                <span class="hide-on-mobile-tablet">
+                    (<span class="qnt">0</span>)
+                </span>
+            </button>*@
+                        </div>
+
+                      
+
+                        @*<button class="cart-page-footer__checkout clear-btn">Mua hàng</button>*@
+                    </div>
+                </div>
+
+                <!-- Confirm deletion -->
+               
+
+                <!-- Empty cart -->
+                <div class="empty-cart">
+                    <div class="empty-cart__img"></div>
+                    <div class="empty-cart__msg">Giỏ hàng của bạn còn trống</div>
+                    <a href="index.html" class="empty-cart__link">
+                        <button class="empty-cart__link-btn clear-btn">MUA NGAY</button>
+                    </a>
+                </div>
+
+                <!-- Cart carousel -->
+
+            </div>
+
+            <!-- Toast message -->
+            <div class="toast-msg-container">
+
+            </div>
+
+            @*<div class="cart-item cart-item-mobile">
+                    <div class="cart-item-col-1">
+                        <div class="shop-checkbox shop-checkbox-sup">
+                            <input class="shop-checkbox__input" type="checkbox">
+                            <div class="shop-checkbox__bgc"></div>
+                        </div>
+
+                        <div class="cart-item__overview">
+                            <a href="#" class="cart-item__overview-img-link">
+                                <img class="cart-item__overview-img" src="${cartProductInfo.img}">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="cart-item-col-2">
+                        <a href="#" class="cart-item__overview-name">${cartProductInfo.name}</a>
+                        <div class="cart-item__variations">
+                            <div class="cart-item__variation-label">
+                                Phân loại hàng:
+                                <button class="cart-item__variation-btn-arrow">
+                                    <i class="cart-item__variation-icon-arrow-down fas fa-sort-down"></i>
+                                </button>
+                            </div>
+                            <div class="cart-item__variation-model hide-on-mobile">${cartProductInfo.type}</div>
+                        </div>
+
+                        <div class="cart-item__price">
+                         //   <div class="cart-item__price-old">₫{numberWithCommas(cartProductInfo.oldPrice)}</div>
+                           // <div class="cart-item__price-current">₫$ư{numberWithCommas(cartProductInfo.curPrice)}</div>
+                        </div>
+
+                        <div class="shop__qnt-btns">
+                            <button class="shop__qnt-btn shop__qnt-btn--dec">
+                                <i class="shop__qnt-btn-icon fas fa-minus"></i>
+                            </button>
+                            <input class="shop__qnt-input" type="text" value="1"/>
+                            <button class="shop__qnt-btn shop__qnt-btn--inc">
+                                <i class="shop__qnt-btn-icon fas fa-plus"></i>
+                            </button>
+                        </div>
+
+                        <div class="cart-item__price-total hide-on-mobile-tablet">₫$da{numberWithCommas(cartProductInfo.curPrice)}</div>
+
+                        <div class="cart-item__actions hide-on-mobile-tablet">
+                            <button class="cart-item__action-remove">Xóa</button>
+                            <button class="cart-item__action-search">
+                                <span class="cart-item__action-search-title">Tìm sản phẩm tương tự</span>
+                                <i class="cart-item__action-search-icon fas fa-sort-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>*@
+        }
+    }
+}

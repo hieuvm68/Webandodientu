@@ -1,0 +1,78 @@
+﻿@using BHDT.Models;
+@model LoaiTK
+@{
+    ViewBag.Title = "PhanQuyen";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h1>PhanQuyen</h1>
+<h2 style="color:red;">Loại Tài Khoản: <font color="orange">@Model.TenLoaiTK</font></h2>
+<br />
+@{
+    //lấy danh sách quyền
+    IEnumerable<BHDT.Models.Quyen> lstQuyen = (IEnumerable<BHDT.Models.Quyen>)ViewBag.MaQuyen;
+    IEnumerable<BHDT.Models.LoaiQuyenTK> lstLTKQuyen = (IEnumerable<BHDT.Models.LoaiQuyenTK>)ViewBag.LoaiTKQuyen;
+
+}
+@using (Html.BeginForm("PhanQuyen", "PhanQuyen", FormMethod.Post))
+{
+    //mãtk
+    @Html.Hidden("MaLoaiTK", Model.MaLoaiTK)
+    if (lstLTKQuyen != null)
+    {
+        //đối vs trường hợp loại tài khoản đã phân quyền r
+        for (int j = 0; j < lstQuyen.Count(); j++)
+        {
+            int k = 0;
+            for (int i = 0; i < lstLTKQuyen.Count(); i++)
+            {
+                if (lstQuyen.ElementAt(j).MaQuyen == lstLTKQuyen.ElementAt(i).MaQuyen)//so sánh giữa item trong bản quyền và item trong bang quyenkh dựa trên mã quyền
+                {
+                    k++;
+                    break;
+                }
+            }
+            if (k != 0)
+            {
+                <div class="col-md-4" style="font-size:15pt;">
+                    <input class="ckb_click" checked="checked" style="width:20px;height:20px;" type="checkbox" name="@Url.Content("["+j+"].MaQuyen")" value="@lstQuyen.ElementAt(j).MaQuyen" />@lstQuyen.ElementAt(j).TenQuyen
+                </div>
+            }
+            else
+            {
+                <div class="col-md-4" style="font-size:15pt;">
+                    <input class="ckb_click" style="width:20px;height:20px;" type="checkbox" name="@Url.Content("["+j+"].MaQuyen")" value="@lstQuyen.ElementAt(j).MaQuyen" />@lstQuyen.ElementAt(j).TenQuyen
+                </div>
+            }
+            k = 0;
+        }
+
+    }
+    else
+    {
+        //đối vs loại khách hàng chứa phân quyền
+        for (int i = 0; i < lstQuyen.Count(); i++)
+        {
+            <div class="col-md-4" style="font-size:15pt;">
+                <input class="ckb_click" style="width:20px;height:20px;" type="checkbox" name="@Url.Content("["+i+"].MaQuyen")" value="@lstQuyen.ElementAt(i).MaQuyen" />@lstQuyen.ElementAt(i).TenQuyen
+            </div>
+        }
+    }
+    <div class="clearfix"></div>
+    <input type="submit" value="Thực Hiện" class="btn btn-success" />
+    <br />
+    @Html.ActionLink("Trở Về", "Index", null, new { @class = "btn btn-primary" })
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script>
+        $(".ckb_click").click(function () {
+            i = 0;
+            $(".ckb_click").each(function () {
+                if ($(this).is(':checked')) {
+                    $(this).attr("name", "[" + i + "].MaQuyen");
+                    i++;
+                }
+
+            })
+        })
+    </script>
+}

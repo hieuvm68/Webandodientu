@@ -1,0 +1,72 @@
+﻿@model BHDT.Models.DonHang
+@{
+    ViewBag.Title = "DuyetDonHang";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>DuyetDonHang</h2>
+
+@using (Html.BeginForm("DuyetDonHang","DonDatHang",FormMethod.Post))
+{@Html.Hidden("MaDDH", Model.MaDDH)
+<div class="ChitietDonHang table">
+    @{ IEnumerable<BHDT.Models.CT_DonHang> listChitiet = (IEnumerable < BHDT.Models.CT_DonHang >)ViewBag.ListCTDH;}
+    <table class="table" id="table">
+        <tr>
+            <td colspan="4">
+                <table style="width:100%;">
+                    <td>Mã đơn hàng:<b style="color:red;">@Model.MaDDH </b></td>
+                    <td>Mã khách hàng::<b style="color:red;">@Model.TaiKhoan.MaTK</b></td>
+                    <td>Tên khách hàng:<b style="color:red;">@Model.TaiKhoan.TenTK</b></td>
+                    <td>Ngày đặt:<b style="color:red;">@Model.NgayDat.Value.ToString("dd/MM/yyyy")</b></td>
+                    <td>
+                        @Html.DropDownList("MaLoaiTT", null, new { @class = "form - control" })
+                    </td>
+                    <tbody></tbody>
+
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td><b>Sản Phẩm</b></td>
+            <td><b>Hình Ảnh</b></td>
+            <td><b>Số Lượng Đặt</b></td>
+            <td><b>Đơn Giá Đặt</b></td>
+        </tr>
+        @foreach (var item in listChitiet)
+        {
+
+            <tr>
+                <td>@item.SanPham.TenSP</td>
+                <td><img width="100" height="100" src="@Url.Content("~"+item.SanPham.HinhAnh)" /></td>
+                <td>@item.SoLuong</td>
+                <td>@item.DonGia</td>
+            </tr>
+        }
+        <tr>
+            <td align="right" colspan="4">Tổng số Lượng: @Model.CT_DonHang.Sum(n => n.SoLuong) sản phẩm</td>
+        </tr>
+        <tr>
+            <td align="right" colspan="4">Tổng Tiền: @Model.CT_DonHang.Sum(n => n.SanPham.DonGia).Value.ToString("###,#đ")</td>
+        </tr>
+    </table>
+    <br />
+    <input type="button" value="In đơn hàng" id="btnintdonhang" />
+    <input type="submit" value="Lưu đơn hàng" id="btnluudonhang" />
+</div>
+
+}
+<script type="text/javascript">
+    $("#btnintdonhang").click(function () {
+        var content = $(".table").html();
+        Indonhang.content(content)
+    });
+    function Indonhang(content) {
+        var printWindow = window.open('', '', 'hegiht=400,width=800');
+        printWindow.document.write('<html><head><title>DIV Content</title>');
+        printWindow.document.write('</head><body>');
+        printWindow.document.write(content);
+        printWindow.document.write('</body></html>');
+        printWindow.document.close();
+        printWindow.print();
+    }
+</script>

@@ -1,0 +1,36 @@
+﻿@using BHDT.Models;
+@model IEnumerable<BHDT.Models.LoaiTK>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Phân Quyền</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MaLoaiTK)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TenLoaiTK)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaLoaiTK)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenLoaiTK)
+        </td>
+        <td>
+            @Html.ActionLink("Phân Quyền", "PhanQuyen", new { id=item.MaLoaiTK })  </td>
+    </tr>
+}
+
+</table>

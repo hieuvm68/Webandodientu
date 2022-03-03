@@ -1,0 +1,64 @@
+﻿@model IEnumerable<BHDT.Models.DonHang>
+
+@{
+    ViewBag.Title = "DonDuyet";
+    Layout = "~/Views/Shared/_LayoutProfile.cshtml";
+}
+
+<nav class="stroke">
+    <ul style="display:flex;justify-content:space-around">
+        <li style="flex:1"><a href="@Url.Action("DonChuaDuyet","Home")">Đơn Đang Chờ Xác Nhận</a></li>
+
+        <li style="flex:1"><a href="@Url.Action("DonDuyet","Home")">Đơn Đã Được Duyệt</a></li>
+    </ul>
+
+</nav>
+<table style="width:100%" class="table">
+    <tr>
+        
+        <th>
+            @Html.DisplayNameFor(model => model.NgayDat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TinhtrangDH.TenTT)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NgayGiao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TaiKhoan.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TongTien)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayDat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TinhtrangDH.TenTT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayGiao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TaiKhoan.Email)
+            </td>
+            <td>
+                @{double tongtien = (double)item.CT_DonHang.Where(n => n.MaDDH == item.MaDDH).Sum(n => n.DonGia * n.SoLuong);}
+                @tongtien
+            </td>
+            <td>
+                @Html.ActionLink("Xem", "XemCT", new { id = item.MaDDH }) |
+
+            </td>
+        </tr>
+    }
+
+</table>

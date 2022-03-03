@@ -1,0 +1,60 @@
+﻿@model BHDT.Models.SanPham
+
+@{
+    /**/
+
+    ViewBag.Title = "ProductDetail";
+    Layout = "~/Views/Shared/_LayoutProduct.cshtml";
+
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="~/Areas/demo/Content/base.css">
+    <link rel="stylesheet" href="~/Areas/demo/Content/main.css">
+    <link rel="stylesheet" type="text/css" href="~/Areas/demo/Content/product-info.css" />
+    <link rel="stylesheet" type="text/css" href="~/Areas/demo/Content/grid.css" />
+    <link rel="stylesheet" type="text/css" href="~/Areas/demo/Content/responsive.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="~/fonts/fontawesome-free-5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+ 
+        <div class="Product-container">
+            <!--Tạo từng mục hiển thị nội dung Grid product-->
+            @Html.Partial("~/Views/Product/GridWide_1.cshtml")
+
+            @*@Html.Partial("~/Views/Product/GridWide_2.cshtml ")*@
+
+            @*@Html.Partial("GridWide_3")*@
+
+            
+        </div>
+
+    <script src="~/Scripts/shop-libraries.js"></script>
+    <script src="~/Scripts/product-info.js"></script>
+    <script src="~/Scripts/general-bugs.js"></script>
+    <script src="~/Scripts/handle-form.js"></script>
+    <script src="~/Scripts/validator.js"></script>
+
+
+</body>
+
+</html>
+
+
+

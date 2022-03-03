@@ -1,0 +1,54 @@
+﻿@using BHDT.Models
+
+<div class="grid wide">
+    @Html.Partial("~/Views/Shared/View.cshtml")
+
+    <!-- Header-with-search -->
+    @using (Html.BeginForm("KQTimKiem", "Find"))
+    {
+        <div class="header-with-search">
+            <label for="nav-mobile-input" class="mobile__menu-btn">
+                <i class="mobile__menu-icon fas fa-ellipsis-v"></i>
+            </label>
+            <input type="checkbox" hidden class="header__search-checkbox" id="mobile-search-checkbox">
+
+            <div class="header__logo hide-on-mobile-tablet">
+                <a href="" class="header__logo-link">
+                    <img src="https://blog.flamingtext.com/blog/2021/05/24/flamingtext_com_1621852038_995735566.gif" class="header__logo-img" style="margin-top:20px" />
+                </a>
+            </div>
+
+            <div class="header-with-search header__search">
+                <div class="header__search-input-wrap">
+                    <input type="text" name="sTuKhoa" class="header__search-input " placeholder="Nhập để tìm kiếm">
+
+                    <i class="header__search-camera fas fa-camera "></i>
+                    <!-- Search history -->
+                    @*<div class="header__search-history">
+                            <div class="header__search-history-heading">Lịch sử tìm kiếm</div>
+                            <ul class="header__search-history-list">
+                                <li class="header__search-history-item">
+                                    <a href="#" type="text" name="sTuKhoa"></a>
+                                </li>
+
+                            </ul>
+                        </div>*@
+                </div>
+
+                <button class="header__search-btn hide-on-mobile-tablet" value="Tìm Kiếm">
+                    <i class="header__search-btn-icon fas fa-search"></i>
+
+                </button>
+            </div>
+
+            <button class="header__search-fillter-wrapper clear-btn">
+                <i class="header__search-fillter-icon fas fa-filter"></i>
+                <span class="header__search-fillter-text">Lọc</span>
+            </button>
+
+            <!-- Cart layout -->
+            @Html.Action("GioHangPartial", "GioHang")
+        </div>
+    }
+
+</div>

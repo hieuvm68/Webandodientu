@@ -1,0 +1,299 @@
+﻿@using BHDT.Models;
+@*@using PagedList;
+    @using PagedList.Mvc;*@
+@model IEnumerable<BHDT.Models.SanPham>
+@{
+    ViewBag.Title = "lstSP";
+    Layout = "~/Views/Shared/_LayoutHomePage.cshtml";
+ 
+
+}
+<script src="~/Scripts/owlcarousel/owl.carousel.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items:1
+                },
+                60: {
+                    items: 3
+                },
+                1230: {
+                    items: 5
+                }
+            }
+            //items: 5,
+            //loop: true,
+            //margin: 10,
+            //autoplay: true,
+            //autoplayTimeout: 1000,
+            //autoplayHoverPause: true,
+        });
+    });
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="~/Scripts/owlcarousel/owl.carousel.min.js"></script>
+<link href="~/Scripts/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+<!--menu danh muc-->
+<link href="~/Scripts/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet" />
+<div class="col l-2 m-0 c-0">
+    <div class="category-pc">
+        @{ Html.RenderAction("MenuPartial", "Home");}
+
+    </div>
+</div>
+<div class="col l-10 m-12 c-12">
+
+    <div class="home-product ">
+        <div id="product-info-container">
+            <div style="margin-top:0;padding-top:0" class="row sm-gutter product">
+                <div style="display:flex" class="grid wide">
+                    <div class="col l-9 c-12">
+
+                        <div class="slideshow-container ">
+
+                            <div class="mySlides fade ">
+
+                                <img src="~/Images/anhbia.jpg" style="width:100%;height:100%; ">
+
+                            </div>
+
+                            <div class="mySlides fade ">
+
+                                <img src="~/Images/anhbiaa.jpg" style="width: 100%;height: 100%;">
+
+                            </div>
+
+                            <div class="mySlides fade ">
+
+                                <img src="~/Images/anhbiabi.jpg" style="width: 100%; height: 100%;">
+
+                            </div>
+
+                        </div>
+
+
+                        <div style="text-align:center ">
+                            <span class="dot "></span>
+                            <span class="dot "></span>
+                            <span class="dot "></span>
+                        </div>
+
+                        <script>
+                            var slideIndex = 0;
+                            showSlides();
+
+                            function showSlides() {
+                                var i;
+                                var slides = document.getElementsByClassName("mySlides ");
+                                var dots = document.getElementsByClassName("dot ");
+                                for (i = 0; i < slides.length; i++) {
+                                    slides[i].style.display = "none ";
+                                }
+                                slideIndex++;
+                                if (slideIndex > slides.length) {
+                                    slideIndex = 1
+                                }
+                                for (i = 0; i < dots.length; i++) {
+                                    dots[i].className = dots[i].className.replace(" active ", " ");
+                                }
+                                slides[slideIndex - 1].style.display = "block ";
+                                dots[slideIndex - 1].className += " active ";
+                                setTimeout(showSlides, 5000); // Change image every 2 seconds
+                            }
+                        </script>
+
+
+                    </div>
+
+                    <div style="display:flex;flex-direction:column" class="col l-3 c-12">
+
+                        <div style="flex:1" class="product__title">
+                            <img style="width:100%;height:100%" src="~/Images/anhphai.jpg" />
+                        </div>
+                        <div style="flex:1" class="product__title">
+                            <img style="width:100%;height:100%" src="~/Images/anhtvgocphai.jpg" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<div class="grid wide">
+    <!-- Product combo cards -->
+    <div class="products-combo">
+        <div style="width: 100%;justify-content: center" class="products-combo-header">
+            <div class="products-combo__title">
+                <span style="color: #f54330" class="products-combo__text">TOP SẢN PHẨM BÁN CHẠY</span>
+
+            </div>
+
+
+        </div>
+
+        <div class="products-combo-container">
+            <div class="products-combo__cards owl-carousel">
+
+
+                @foreach (var item in Model.Where(n => n.SoLuong <= 10).Take(8))
+                {
+                    double tien = 0;
+                    if (item.DonGia != null)
+                    {
+                        tien = (double)item.DonGia;
+                    }
+                    <div class="col-lg-12 m-8 c-10">
+                        <a href="@Url.Action("CTSP","Home",new{ idsp = item.MaSP }, null)" class="home-product-item ">
+                            @*@Html.ActionLink("asdsad", "CTSP", "Home", new { idsp = item.MaSP }, null)*@
+                            <img src="@Url.Content("~"+item.HinhAnh)" class="home-product-item__img ">
+                            <div class="home-product-item__name"> @Html.DisplayFor(model => item.TenSP) </div>
+                            <div class="home-product-item__price">
+                                <span class="home-product-item__price-current">@tien.ToString("###,#đ")</span>
+                            </div>
+
+
+                        </a>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid wide">
+    <!-- Product combo cards -->
+    <div class="products-combo">
+        <div style="width: 100%;justify-content: center" class="products-combo-header">
+            <div class="products-combo__title">
+                <span style="color: #f54330;" class="products-combo__text">ĐIỆN THOẠI MỚI NHẤT</span>
+
+            </div>
+
+
+        </div>
+
+       <style>
+           #wp-slider{
+               width:100%;
+               margin:0 auto;
+           }
+       </style>
+       <div class="products-combo-container">
+           <div id="wp-slider">
+               <div class="products-combo__cards owl-carousel">
+
+
+                   @foreach (var item in Model.Where(n => n.MaLoaiSP == 3))
+                   {
+                       double tien = 0;
+                       if (item.DonGia != null)
+                       {
+                           tien = (double)item.DonGia;
+                       }
+                       @*<div class="col l-2-4 m-4 c-6">*@
+                       <a href="@Url.Action("CTSP","Home",new{ idsp = item.MaSP }, null)" class="home-product-item ">
+                           @*@Html.ActionLink("asdsad", "CTSP", "Home", new { idsp = item.MaSP }, null)*@
+                           <img src="@Url.Content("~"+item.HinhAnh)" class="home-product-item__img ">
+                           <div class="home-product-item__name"> @Html.DisplayFor(model => item.TenSP) </div>
+                           <div class="home-product-item__price">
+                               <span class="home-product-item__price-current">@tien.ToString("###,#đ")</span>
+                           </div>
+
+
+                       </a>
+                       @*</div>*@
+                   }
+               </div>
+           </div>
+       </div>
+    </div>
+</div>
+<div class="grid wide">
+    <!-- Product combo cards -->
+    <div class="products-combo">
+        <div style="width: 100%;justify-content: center" class="products-combo-header">
+            <div class="products-combo__title">
+                <span style="color: #f54330" class="products-combo__text">TIVI MỚI NHẤT</span>
+
+            </div>
+
+
+        </div>
+
+        <div class="products-combo-container">
+            <div class="products-combo__cards owl-carousel">
+
+
+                @foreach (var item in Model.Where(n => n.MaLoaiSP == 4))
+                {
+                    double tien = 0;
+                    if (item.DonGia != null)
+                    {
+                        tien = (double)item.DonGia;
+                    }
+                    <div class="col-lg-12 m-8 c-10">
+                        <a href="@Url.Action("CTSP","Home",new{ idsp = item.MaSP }, null)" class="home-product-item ">
+                            @*@Html.ActionLink("asdsad", "CTSP", "Home", new { idsp = item.MaSP }, null)*@
+                            <img src="@Url.Content("~"+item.HinhAnh)" class="home-product-item__img ">
+                            <div class="home-product-item__name"> @Html.DisplayFor(model => item.TenSP) </div>
+                            <div class="home-product-item__price">
+                                <span class="home-product-item__price-current">@tien.ToString("###,#đ")</span>
+                            </div>
+
+
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid wide">
+    <!-- Product combo cards -->
+    <div class="products-combo">
+        <div style="width: 100%;justify-content: center" class="products-combo-header">
+            <div class="products-combo__title">
+                <span style="color: #f54330" class="products-combo__text">LAPTOP MỚI NHẤT</span>
+
+            </div>
+
+
+        </div>
+
+        <div class="products-combo-container">
+            <div class="products-combo__cards owl-carousel">
+
+
+                @foreach (var item in Model.Where(n => n.MaLoaiSP == 5))
+                {
+                    double tien = 0;
+                    if (item.DonGia != null)
+                    {
+                        tien = (double)item.DonGia;
+                    }
+                    <div class="col-lg-12 m-8 c-10">
+                        <a href="@Url.Action("CTSP","Home",new{ idsp = item.MaSP }, null)" class="home-product-item ">
+                            @*@Html.ActionLink("asdsad", "CTSP", "Home", new { idsp = item.MaSP }, null)*@
+                            <img src="@Url.Content("~"+item.HinhAnh)" class="home-product-item__img ">
+                            <div class="home-product-item__name"> @Html.DisplayFor(model => item.TenSP) </div>
+                            <div class="home-product-item__price">
+                                <span class="home-product-item__price-current">@tien.ToString("###,#đ")</span>
+                            </div>
+
+
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

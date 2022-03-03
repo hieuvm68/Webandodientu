@@ -1,0 +1,1150 @@
+C:\Users\us\source\repos\BHDT\BHDT\bin\BHDT.dll.config
+C:\Users\us\source\repos\BHDT\BHDT\bin\BHDT.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\BHDT.pdb
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\csc.exe
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\csc.exe.config
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\csc.rsp
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\csi.exe
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\csi.exe.config
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\csi.rsp
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.AppContext.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.Console.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.IO.Compression.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.Net.Http.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.Net.Sockets.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.ValueTuple.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.Xml.XPath.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\vbc.exe
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\vbc.exe.config
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\vbc.rsp
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\VBCSCompiler.exe
+C:\Users\us\source\repos\BHDT\BHDT\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\us\source\repos\BHDT\BHDT\bin\Antlr3.Runtime.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\EntityFramework.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\EntityFramework.SqlServer.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\Newtonsoft.Json.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\PagedList.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\PagedList.Mvc.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Web.Helpers.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Web.Mvc.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Web.Optimization.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Web.Razor.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Web.WebPages.Deployment.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Web.WebPages.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Web.WebPages.Razor.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\WebGrease.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\EntityFramework.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\EntityFramework.SqlServer.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\PagedList.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\PagedList.Mvc.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Web.Helpers.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Web.Mvc.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Web.Optimization.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Web.Razor.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Web.WebPages.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Web.WebPages.Deployment.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Web.WebPages.Razor.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\Newtonsoft.Json.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\Antlr3.Runtime.pdb
+C:\Users\us\source\repos\BHDT\BHDT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\us\source\repos\BHDT\BHDT\obj\Debug\BHDT.csproj.CoreCompileInputs.cache
+C:\Users\us\source\repos\BHDT\BHDT\obj\Debug\BHDT.csproj.CopyComplete
+C:\Users\us\source\repos\BHDT\BHDT\obj\Debug\BHDT.dll
+C:\Users\us\source\repos\BHDT\BHDT\obj\Debug\BHDT.pdb
+C:\Users\us\source\repos\BHDT\BHDT\obj\Debug\BHDT.csprojAssemblyReference.cache
+C:\Users\us\source\repos\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Buffers.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Memory.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Numerics.Vectors.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Text.Encodings.Web.dll
+C:\Users\us\source\repos\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Buffers.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Memory.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Numerics.Vectors.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\us\source\repos\BHDT\BHDT\bin\System.Text.Encodings.Web.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\BHDT.dll.config
+C:\Users\us\Desktop\BHDT\BHDT\bin\BHDT.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\BHDT.pdb
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\csc.exe
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\csc.exe.config
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\csc.rsp
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\csi.exe
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\csi.exe.config
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\csi.rsp
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.AppContext.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.Console.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.IO.Compression.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.Net.Http.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.Net.Sockets.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.ValueTuple.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.Xml.XPath.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\vbc.exe
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\vbc.exe.config
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\vbc.rsp
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\VBCSCompiler.exe
+C:\Users\us\Desktop\BHDT\BHDT\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\us\Desktop\BHDT\BHDT\bin\Antlr3.Runtime.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\EntityFramework.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\EntityFramework.SqlServer.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\Newtonsoft.Json.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\PagedList.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\PagedList.Mvc.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Buffers.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Memory.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Numerics.Vectors.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Text.Encodings.Web.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Web.Helpers.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Web.Mvc.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Web.Optimization.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Web.Razor.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Web.WebPages.Deployment.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Web.WebPages.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Web.WebPages.Razor.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\WebGrease.dll
+C:\Users\us\Desktop\BHDT\BHDT\bin\EntityFramework.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\EntityFramework.SqlServer.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\PagedList.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\PagedList.Mvc.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Buffers.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Memory.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Numerics.Vectors.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Text.Encodings.Web.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Web.Helpers.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Web.Mvc.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Web.Optimization.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Web.Razor.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Web.WebPages.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Web.WebPages.Deployment.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\System.Web.WebPages.Razor.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\Newtonsoft.Json.xml
+C:\Users\us\Desktop\BHDT\BHDT\bin\Antlr3.Runtime.pdb
+C:\Users\us\Desktop\BHDT\BHDT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\us\Desktop\BHDT\BHDT\obj\Debug\BHDT.csprojAssemblyReference.cache
+C:\Users\us\Desktop\BHDT\BHDT\obj\Debug\BHDT.csproj.CoreCompileInputs.cache
+C:\Users\us\Desktop\BHDT\BHDT\obj\Debug\BHDT.csproj.CopyComplete
+C:\Users\us\Desktop\BHDT\BHDT\obj\Debug\BHDT.dll
+C:\Users\us\Desktop\BHDT\BHDT\obj\Debug\BHDT.pdb
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\BHDT.dll.config
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\BHDT.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\BHDT.pdb
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\csc.exe
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\csc.exe.config
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\csc.rsp
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\csi.exe
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\csi.exe.config
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\csi.rsp
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.AppContext.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.Console.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.IO.Compression.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.Net.Http.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.Net.Sockets.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.ValueTuple.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.Xml.XPath.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\vbc.exe
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\vbc.exe.config
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\vbc.rsp
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\VBCSCompiler.exe
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\Antlr3.Runtime.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\EntityFramework.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\EntityFramework.SqlServer.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\Newtonsoft.Json.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\PagedList.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\PagedList.Mvc.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Buffers.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Memory.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Numerics.Vectors.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Text.Encodings.Web.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Web.Helpers.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Web.Mvc.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Web.Optimization.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Web.Razor.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Web.WebPages.Deployment.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Web.WebPages.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Web.WebPages.Razor.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\WebGrease.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\EntityFramework.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\EntityFramework.SqlServer.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\PagedList.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\PagedList.Mvc.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Buffers.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Memory.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Numerics.Vectors.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Text.Encodings.Web.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Web.Helpers.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Web.Mvc.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Web.Optimization.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Web.Razor.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Web.WebPages.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Web.WebPages.Deployment.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\System.Web.WebPages.Razor.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\Newtonsoft.Json.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\Antlr3.Runtime.pdb
+C:\Users\us\Desktop\New folder\BHDT\BHDT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\us\Desktop\New folder\BHDT\BHDT\obj\Debug\BHDT.csprojAssemblyReference.cache
+C:\Users\us\Desktop\New folder\BHDT\BHDT\obj\Debug\BHDT.csproj.CoreCompileInputs.cache
+C:\Users\us\Desktop\New folder\BHDT\BHDT\obj\Debug\BHDT.csproj.CopyComplete
+C:\Users\us\Desktop\New folder\BHDT\BHDT\obj\Debug\BHDT.dll
+C:\Users\us\Desktop\New folder\BHDT\BHDT\obj\Debug\BHDT.pdb
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\BHDT.dll.config
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\BHDT.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\BHDT.pdb
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\csc.exe
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\csc.exe.config
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\csc.rsp
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\csi.exe
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\csi.exe.config
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\csi.rsp
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.AppContext.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Console.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.IO.Compression.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Net.Http.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Net.Sockets.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.ValueTuple.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Xml.XPath.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\vbc.exe
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\vbc.exe.config
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\vbc.rsp
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\VBCSCompiler.exe
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\Microsoft.Win32.Primitives.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\netstandard.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.AppContext.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Collections.Concurrent.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Collections.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Collections.NonGeneric.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Collections.Specialized.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.ComponentModel.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.ComponentModel.Primitives.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Console.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Data.Common.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Diagnostics.Contracts.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Diagnostics.Debug.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Diagnostics.Process.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Diagnostics.StackTrace.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Diagnostics.Tools.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Diagnostics.TraceSource.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Diagnostics.Tracing.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Drawing.Primitives.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Dynamic.Runtime.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Globalization.Calendars.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Globalization.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Globalization.Extensions.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.IO.Compression.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.IO.Compression.ZipFile.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.IO.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.IO.FileSystem.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.IO.IsolatedStorage.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.IO.Pipes.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Linq.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Linq.Expressions.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Linq.Parallel.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Linq.Queryable.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Net.Http.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Net.NameResolution.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Net.NetworkInformation.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Net.Ping.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Net.Primitives.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Net.Requests.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Net.Security.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Net.Sockets.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Net.WebHeaderCollection.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Net.WebSockets.Client.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Net.WebSockets.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.ObjectModel.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Reflection.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Reflection.Extensions.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Reflection.Primitives.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Resources.Reader.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Resources.ResourceManager.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Resources.Writer.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.Extensions.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.Handles.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.InteropServices.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.Numerics.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.Serialization.Json.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Security.Claims.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Security.Cryptography.Csp.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Security.Principal.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Security.SecureString.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Text.Encoding.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Text.Encoding.Extensions.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Text.RegularExpressions.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Threading.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Threading.Overlapped.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Threading.Tasks.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Threading.Thread.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Threading.ThreadPool.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Threading.Timer.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.ValueTuple.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Xml.ReaderWriter.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Xml.XDocument.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Xml.XmlDocument.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Xml.XmlSerializer.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Xml.XPath.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Xml.XPath.XDocument.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\Antlr3.Runtime.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\EntityFramework.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\EntityFramework.SqlServer.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\Newtonsoft.Json.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\PagedList.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\PagedList.Mvc.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Buffers.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Memory.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Numerics.Vectors.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Text.Encodings.Web.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Web.Helpers.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Web.Mvc.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Web.Optimization.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Web.Razor.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Web.WebPages.Deployment.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Web.WebPages.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Web.WebPages.Razor.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\WebGrease.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\EntityFramework.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\EntityFramework.SqlServer.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\PagedList.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\PagedList.Mvc.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Buffers.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Memory.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Numerics.Vectors.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Text.Encodings.Web.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Web.Helpers.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Web.Mvc.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Web.Optimization.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Web.Razor.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Web.WebPages.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Web.WebPages.Deployment.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\System.Web.WebPages.Razor.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\Newtonsoft.Json.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\Antlr3.Runtime.pdb
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\obj\Debug\BHDT.csprojAssemblyReference.cache
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\obj\Debug\BHDT.csproj.CoreCompileInputs.cache
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\obj\Debug\BHDT.csproj.CopyComplete
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\obj\Debug\BHDT.dll
+C:\Users\us\Desktop\New folder3\New folder\BHDT\BHDT\obj\Debug\BHDT.pdb
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\BHDT.dll.config
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\BHDT.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\BHDT.pdb
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\csc.exe
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\csc.exe.config
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\csc.rsp
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\csi.exe
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\csi.exe.config
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\csi.rsp
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.AppContext.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Console.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.IO.Compression.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Net.Http.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Net.Sockets.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.ValueTuple.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Xml.XPath.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\vbc.exe
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\vbc.exe.config
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\vbc.rsp
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\VBCSCompiler.exe
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\Microsoft.Win32.Primitives.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\netstandard.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.AppContext.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Collections.Concurrent.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Collections.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Collections.NonGeneric.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Collections.Specialized.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.ComponentModel.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.ComponentModel.Primitives.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Console.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Data.Common.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Diagnostics.Contracts.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Diagnostics.Debug.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Diagnostics.Process.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Diagnostics.StackTrace.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Diagnostics.Tools.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Diagnostics.TraceSource.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Diagnostics.Tracing.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Drawing.Primitives.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Dynamic.Runtime.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Globalization.Calendars.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Globalization.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Globalization.Extensions.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.IO.Compression.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.IO.Compression.ZipFile.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.IO.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.IO.FileSystem.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.IO.IsolatedStorage.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.IO.Pipes.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Linq.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Linq.Expressions.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Linq.Parallel.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Linq.Queryable.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Net.Http.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Net.NameResolution.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Net.NetworkInformation.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Net.Ping.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Net.Primitives.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Net.Requests.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Net.Security.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Net.Sockets.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Net.WebHeaderCollection.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Net.WebSockets.Client.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Net.WebSockets.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.ObjectModel.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Reflection.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Reflection.Extensions.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Reflection.Primitives.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Resources.Reader.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Resources.ResourceManager.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Resources.Writer.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.Extensions.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.Handles.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.InteropServices.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.Numerics.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.Serialization.Json.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Security.Claims.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Security.Cryptography.Csp.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Security.Principal.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Security.SecureString.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Text.Encoding.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Text.Encoding.Extensions.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Text.RegularExpressions.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Threading.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Threading.Overlapped.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Threading.Tasks.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Threading.Thread.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Threading.ThreadPool.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Threading.Timer.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.ValueTuple.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Xml.ReaderWriter.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Xml.XDocument.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Xml.XmlDocument.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Xml.XmlSerializer.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Xml.XPath.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Xml.XPath.XDocument.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\Antlr3.Runtime.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\CarouselView.FormsPlugin.Abstractions.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\EntityFramework.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\EntityFramework.SqlServer.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\Newtonsoft.Json.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\PagedList.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\PagedList.Mvc.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Buffers.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Memory.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Numerics.Vectors.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Text.Encodings.Web.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Web.Helpers.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Web.Mvc.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Web.Optimization.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Web.Razor.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Web.WebPages.Deployment.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Web.WebPages.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Web.WebPages.Razor.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\WebGrease.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\EntityFramework.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\EntityFramework.SqlServer.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\PagedList.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\PagedList.Mvc.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Buffers.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Memory.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Numerics.Vectors.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Text.Encodings.Web.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Web.Helpers.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Web.Mvc.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Web.Optimization.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Web.Razor.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Web.WebPages.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Web.WebPages.Deployment.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\System.Web.WebPages.Razor.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\Newtonsoft.Json.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\Antlr3.Runtime.pdb
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\obj\Debug\BHDT.csprojAssemblyReference.cache
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\obj\Debug\BHDT.csproj.CoreCompileInputs.cache
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\obj\Debug\BHDT.csproj.CopyComplete
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\obj\Debug\BHDT.dll
+C:\Users\us\Desktop\HieuQuan\New folder3\New folder\BHDT\BHDT\obj\Debug\BHDT.pdb
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\BHDT.dll.config
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\BHDT.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\BHDT.pdb
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\csc.exe
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\csc.exe.config
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\csc.rsp
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\csi.exe
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\csi.exe.config
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\csi.rsp
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.AppContext.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Console.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.IO.Compression.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Net.Http.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Net.Sockets.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.ValueTuple.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Xml.XPath.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\vbc.exe
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\vbc.exe.config
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\vbc.rsp
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\VBCSCompiler.exe
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.Win32.Primitives.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\netstandard.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.AppContext.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Collections.Concurrent.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Collections.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Collections.NonGeneric.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Collections.Specialized.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.ComponentModel.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.ComponentModel.Primitives.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Console.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Data.Common.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Diagnostics.Contracts.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Diagnostics.Debug.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Diagnostics.Process.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Diagnostics.StackTrace.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Diagnostics.Tools.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Diagnostics.TraceSource.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Diagnostics.Tracing.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Drawing.Primitives.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Dynamic.Runtime.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Globalization.Calendars.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Globalization.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Globalization.Extensions.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.Compression.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.Compression.ZipFile.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.FileSystem.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.IsolatedStorage.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.Pipes.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Linq.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Linq.Expressions.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Linq.Parallel.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Linq.Queryable.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.Http.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.NameResolution.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.NetworkInformation.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.Ping.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.Primitives.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.Requests.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.Security.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.Sockets.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.WebHeaderCollection.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.WebSockets.Client.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.WebSockets.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.ObjectModel.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Reflection.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Reflection.Extensions.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Reflection.Primitives.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Resources.Reader.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Resources.ResourceManager.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Resources.Writer.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.Extensions.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.Handles.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.InteropServices.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.Numerics.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.Serialization.Json.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Security.Claims.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Security.Cryptography.Csp.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Security.Principal.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Security.SecureString.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Text.Encoding.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Text.Encoding.Extensions.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Text.RegularExpressions.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Threading.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Threading.Overlapped.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Threading.Tasks.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Threading.Thread.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Threading.ThreadPool.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Threading.Timer.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.ValueTuple.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Xml.ReaderWriter.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Xml.XDocument.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Xml.XmlDocument.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Xml.XmlSerializer.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Xml.XPath.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Xml.XPath.XDocument.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Antlr3.Runtime.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\CarouselView.FormsPlugin.Abstractions.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\EntityFramework.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\EntityFramework.SqlServer.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Newtonsoft.Json.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\PagedList.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\PagedList.Mvc.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Buffers.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Memory.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Numerics.Vectors.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Text.Encodings.Web.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.Helpers.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.Mvc.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.Optimization.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.Razor.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.WebPages.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.WebPages.Razor.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\WebGrease.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\EntityFramework.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\EntityFramework.SqlServer.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\PagedList.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\PagedList.Mvc.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Buffers.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Memory.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Numerics.Vectors.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Text.Encodings.Web.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.Helpers.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.Mvc.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.Optimization.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.Razor.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.WebPages.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.WebPages.Razor.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Newtonsoft.Json.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Antlr3.Runtime.pdb
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\obj\Debug\BHDT.csproj.AssemblyReference.cache
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\obj\Debug\BHDT.csproj.CoreCompileInputs.cache
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\obj\Debug\BHDT.csproj.CopyComplete
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\obj\Debug\BHDT.dll
+C:\Users\hieuv\OneDrive\Máy tính\cnpmncn\DACNPMNC\BHDT\BHDT\obj\Debug\BHDT.pdb
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\obj\Debug\BHDT.csproj.AssemblyReference.cache
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\obj\Debug\BHDT.csproj.CoreCompileInputs.cache
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\obj\Debug\BHDT.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\obj\Debug\BHDT.pdb
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\BHDT.dll.config
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\BHDT.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\BHDT.pdb
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\csc.exe
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\csc.exe.config
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\csc.rsp
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\csi.exe
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\csi.exe.config
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\csi.rsp
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.Managed.Core.targets
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.AppContext.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Collections.Immutable.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Console.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Globalization.Calendars.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.IO.Compression.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.IO.FileSystem.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Net.Http.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Net.Sockets.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Reflection.Metadata.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.ValueTuple.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Xml.XmlDocument.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Xml.XPath.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\vbc.exe
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\vbc.exe.config
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\vbc.rsp
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\VBCSCompiler.exe
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\roslyn\VBCSCompiler.exe.config
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.Win32.Primitives.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\netstandard.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.AppContext.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Collections.Concurrent.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Collections.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Collections.NonGeneric.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Collections.Specialized.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.ComponentModel.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.ComponentModel.EventBasedAsync.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.ComponentModel.Primitives.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.ComponentModel.TypeConverter.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Console.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Data.Common.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Diagnostics.Contracts.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Diagnostics.Debug.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Diagnostics.FileVersionInfo.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Diagnostics.Process.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Diagnostics.StackTrace.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Diagnostics.TextWriterTraceListener.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Diagnostics.Tools.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Diagnostics.TraceSource.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Diagnostics.Tracing.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Drawing.Primitives.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Dynamic.Runtime.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Globalization.Calendars.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Globalization.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Globalization.Extensions.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.Compression.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.Compression.ZipFile.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.FileSystem.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.FileSystem.DriveInfo.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.FileSystem.Primitives.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.FileSystem.Watcher.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.IsolatedStorage.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.MemoryMappedFiles.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.Pipes.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.IO.UnmanagedMemoryStream.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Linq.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Linq.Expressions.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Linq.Parallel.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Linq.Queryable.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.Http.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.NameResolution.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.NetworkInformation.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.Ping.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.Primitives.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.Requests.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.Security.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.Sockets.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.WebHeaderCollection.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.WebSockets.Client.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Net.WebSockets.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.ObjectModel.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Reflection.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Reflection.Extensions.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Reflection.Primitives.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Resources.Reader.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Resources.ResourceManager.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Resources.Writer.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.CompilerServices.VisualC.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.Extensions.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.Handles.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.InteropServices.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.Numerics.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.Serialization.Formatters.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.Serialization.Json.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.Serialization.Primitives.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.Serialization.Xml.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Security.Claims.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Security.Cryptography.Algorithms.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Security.Cryptography.Csp.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Security.Cryptography.Encoding.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Security.Cryptography.Primitives.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Security.Cryptography.X509Certificates.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Security.Principal.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Security.SecureString.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Text.Encoding.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Text.Encoding.Extensions.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Text.RegularExpressions.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Threading.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Threading.Overlapped.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Threading.Tasks.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Threading.Tasks.Parallel.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Threading.Thread.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Threading.ThreadPool.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Threading.Timer.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.ValueTuple.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Xml.ReaderWriter.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Xml.XDocument.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Xml.XmlDocument.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Xml.XmlSerializer.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Xml.XPath.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Xml.XPath.XDocument.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Antlr3.Runtime.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\CarouselView.FormsPlugin.Abstractions.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\EntityFramework.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\EntityFramework.SqlServer.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Features.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.Extensions.Primitives.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.Net.Http.Headers.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.Web.Infrastructure.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Newtonsoft.Json.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\PagedList.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\PagedList.Mvc.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Buffers.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Memory.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Numerics.Vectors.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.CompilerServices.Unsafe.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Text.Encodings.Web.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.Helpers.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.Mvc.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.Optimization.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.Razor.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.WebPages.Deployment.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.WebPages.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.WebPages.Razor.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\WebGrease.dll
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\EntityFramework.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\EntityFramework.SqlServer.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.AspNetCore.Http.Features.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.Extensions.Primitives.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.Net.Http.Headers.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\PagedList.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\PagedList.Mvc.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Buffers.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Memory.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Numerics.Vectors.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Runtime.CompilerServices.Unsafe.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Text.Encodings.Web.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.Helpers.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.Mvc.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.Optimization.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.Razor.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.WebPages.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.WebPages.Deployment.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\System.Web.WebPages.Razor.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Newtonsoft.Json.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Antlr3.Runtime.pdb
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\cnpmncn\DACNPMNC\BHDT\BHDT\obj\Debug\BHDT.csproj.CopyComplete

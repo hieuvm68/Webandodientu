@@ -1,0 +1,140 @@
+﻿@model BHDT.Models.SanPham
+
+
+    <div class="grid">
+        <div class="row sm-gutter product-content__side" style="padding-bottom: 25px;">
+            <!-- Product left content -->
+            <div class="product-content--left">
+                <!-- Product details -->
+                <div class="product-details">
+                    <div class="product-detail">
+                        <div class="product-detail__title">Chi tiết sản phẩm</div>
+                        <div class="product-details__wrapper">
+                            <div class="product-detail__wrapper">
+                                <span class="product-detail__label">Danh Mục</span>
+                                <div class="product-detail__links">
+                                    <a class="product-detail__link" href="/">
+                                        <span>DHQ Shop</span>
+                                    </a>
+                                    <svg class="product-detail__icon shopee-svg-icon _3kIvpP icon-arrow-right" enable-background="new 0 0 11 11"
+                                         viewBox="0 0 11 11" x="0" y="0">
+                                        <path d="m2.5 11c .1 0 .2 0 .3-.1l6-5c .1-.1.2-.3.2-.4s-.1-.3-.2-.4l-6-5c-.2-.2-.5-.1-.7.1s-.1.5.1.7l5.5 4.6-5.5 4.6c-.2.2-.2.5-.1.7.1.1.3.2.4.2z">
+                                        </path>
+                                    </svg>
+                                    <a class="product-detail__link" href="/">
+                                        <span>Phụ kiện</span>
+                                    </a>
+                                    <svg class="product-detail__icon  shopee-svg-icon _3kIvpP icon-arrow-right" enable-background="new 0 0 11 11"
+                                         viewBox="0 0 11 11" x="0" y="0">
+                                        <path d="m2.5 11c .1 0 .2 0 .3-.1l6-5c .1-.1.2-.3.2-.4s-.1-.3-.2-.4l-6-5c-.2-.2-.5-.1-.7.1s-.1.5.1.7l5.5 4.6-5.5 4.6c-.2.2-.2.5-.1.7.1.1.3.2.4.2z">
+                                        </path>
+                                    </svg>
+                                    <a class="product-detail__link" href="/">
+                                        <span>May tinh</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="product-detail__wrapper">
+                                <span class="product-detail__label">Nhà sản xuất</span>
+                                <a class="product-detail__link" href="/">
+                                    <span>@Model.NhaSanXuat.TenNSX</span>
+                                </a>
+                            </div>
+
+                            <div class="product-detail__wrapper">
+                                <span class="product-detail__label">Loại sản phẩm</span>
+                                <span class="product-detail__text">@Model.LoaiSanPham.TenLoai</span>
+                            </div>
+
+                            <div class="product-detail__wrapper">
+                                <span class="product-detail__label">Tình trạng</span>
+                                @if (Model.Tinhtrang == true)
+                                {
+                                    <span class="product-detail__text">Còn hàng</span>
+                                }
+                                @if (Model.Tinhtrang == false)
+                                {
+                                    <span class="product-detail__text">Hết hàng</span>
+                                }
+                            </div>
+
+                            <div class="product-detail__wrapper">
+                                <span class="product-detail__label">Gửi từ</span>
+                                <span class="product-detail__text">Công ty phần mềm DHQ, TPHCM</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-description">
+                        <div class="product-description__title">Mô tả sản phẩm</div>
+                        <span class="product-description__content">@Html.DisplayFor(model => model.Mota)</span>
+                        @*<button class="read-more-btn clear-btn">
+                                <span class="read-more-btn__text">Xem thêm</span>
+                                <span class="read-more-btn__icon--down">
+                                    <i class="read-more-btn__icon fas fa-angle-down"></i>
+                                </span>
+                                <span class="read-more-btn__icon--up hidden">
+                                    <i class="read-more-btn__icon fas fa-angle-up"></i>
+                                </span>
+                            </button>*@
+                    </div>
+                </div>
+
+                <!-- Product reviews -->
+                <div class="product-reviews">
+                    <div class="product-reviews__header">ĐÁNH GIÁ SẢN PHẨM</div>
+                    <!-- Stars on mobile -->
+                    <div class="product-reviews__rating-mobile">
+                        <div class="product-reviews__rating-stars product-reviews__rating-stars-mobile">
+                            <i class="product-reviews__rating-star fas fa-star"></i>
+                            <i class="product-reviews__rating-star fas fa-star"></i>
+                            <i class="product-reviews__rating-star fas fa-star"></i>
+                            <i class="product-reviews__rating-star fas fa-star"></i>
+                            <i class="product-reviews__rating-star fas fa-star"></i>
+                        </div>
+                        <div class="product-reviews__rating-score-wrapper">
+                            <span class="product-reviews__rating-score">4.9</span><span class="product-reviews__rating-score-out-of">/5</span>
+                        </div>
+                        <div class="product-reviews__total">(44 đánh giá)</div>
+                    </div>
+
+                    <div class="product-reviews__container hide-on-mobile">
+                        <div class="product-reviews__rating">
+                            <div class="product-reviews__rating-score-wrapper">
+                                <span class="product-reviews__rating-score">4.9</span>
+                                <span class="product-reviews__rating-score-out-of"> trên 5 </span>
+                            </div>
+
+                            <div class="product-reviews__rating-stars">
+                                <i class="product-reviews__rating-star fas fa-star"></i>
+                                <i class="product-reviews__rating-star fas fa-star"></i>
+                                <i class="product-reviews__rating-star fas fa-star"></i>
+                                <i class="product-reviews__rating-star fas fa-star"></i>
+                                <i class="product-reviews__rating-star fas fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="product-reviews__filters">
+                            <div class="product-reviews__filter product-reviews__filter--active">tất cả</div>
+                            <div class="product-reviews__filter">5 Sao (0)</div>
+                            <div class="product-reviews__filter">4 Sao (0)</div>
+                            <div class="product-reviews__filter">3 Sao (0)</div>
+                            <div class="product-reviews__filter">2 Sao (0)</div>
+                            <div class="product-reviews__filter">1 Sao (0)</div>
+                        </div>
+                    </div>
+
+                    <div class="product-reviews__comments">
+                        @*<div class="product-reviews__comment">Rất tiếc, hiện chưa có bình luận nào</div>*@
+                        @*@{ Html.RenderAction("PostComment", "Comment");}*@
+                        @Html.Partial("PostComment")
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>

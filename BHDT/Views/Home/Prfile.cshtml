@@ -1,0 +1,165 @@
+﻿@using BHDT.Models
+@model BHDT.Models.TaiKhoan
+@{
+    ViewBag.Title = "Prfile";
+    Layout = "~/Views/Shared/_LayoutProfile.cshtml";
+}
+
+
+
+    @using (Html.BeginForm("Prfile", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.Hidden("MaTK", Model.MaTK)
+
+        if (Session["email"] != null)
+        {
+            TaiKhoan kh = (TaiKhoan)Session["email"];// chỗ này code gán session
+            <!-- Product item -->
+            <div class="page-content page-container" id="page-content">
+                <div class="padding">
+                    <div style="display:block;background:#fff" class="row">
+                        <div class="col-xl-6 col-md-12">
+                            <div class="card user-card-full">
+                                <div class="row m-l-0 m-r-0" style="display: flex;">
+                                    <div class="col-sm-4 bg-c-lite-green user-profile" style="flex:1;text-align: center;">
+                                        <div class="card-block text-center text-white">
+                                            <div class="m-b-25">
+                                           
+                                            <img value="~/Images/+@Model.ImageUser" style="border-radius: 50%; border: 1px solid rgba(0, 0, 0, 0.1)"src="@Url.Content("~/Images/"+Model.ImageUser)" class="img-radius" alt="User-Profile-Image"> </div>
+                                            <input  name="UploadImage" type="file" />
+
+                                            <input name="txtTen" class="f-w-600" value="@Model.TenTK" />
+
+                                            <p>@Model.TenTK</p> <i class=" mdi mdi-square-edit-outline feather icon-edit m-t-10 f-16"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-8" style="flex:2">
+                                        <div style="text-align:center;display: flex; flex-direction: column; height: 100%;" class="card-block">
+                                            <div class="row" style="display: flex;flex:1">
+                                                <div class="col-sm-6" style="flex:1;">
+                                                    <p  class="m-b-10 f-w-600">Email</p>
+                                                    <h6 >@Model.Email</h6>
+                                                </div>
+                                                <div class="col-sm-6" style="flex:1;">
+                                                    <p class="m-b-10 f-w-600">Số Điện Thoại</p>
+                                                    <input name="txtsdt" class="text-muted f-w-400" value="@Model.SDT"/>
+                                                </div>
+                                            </div> 
+                                            <div class="row" style="display: flex;flex:1">
+                                                <div class="col-sm-6" style="flex:1;">
+                                                    <p class="m-b-10 f-w-600">Địa Chỉ</p>
+                                                    <input name="txtdiachi" class="text-muted f-w-400" value="@Model.DiaChi"/>
+                                                </div>
+                                                <div class="col-sm-6" style="flex:1;">
+                                                    <p class="m-b-10 f-w-600">Biệt Danh</p>
+                                                    <input name="txtbietdanh" class="text-muted f-w-400" value="@Model.Username"/>
+                                                </div>
+                                            </div>
+                                           <button style="width: 10%; display: flex; align-self: center;" class="btn btn--primary" type="submit">Lưu</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+
+<style>
+.padding {
+    padding: 16px !important
+}
+
+.user-card-full {
+    overflow: hidden
+}
+
+    
+.m-b-25 {
+    margin-bottom: 25px
+}
+
+.img-radius {
+    border-radius: 5px
+}
+
+h6 {
+    font-size: 14px
+}
+
+.card .card-block p {
+    line-height: 25px
+}
+
+@@media only screen and (min-width: 1400px) {
+    p {
+        font-size: 14px
+    }
+}
+
+.card-block {
+    padding: 1.25rem
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0
+}
+
+
+
+.p-b-5 {
+    padding-bottom: 5px !important
+}
+
+.card .card-block p {
+    line-height: 25px
+}
+
+.m-b-10 {
+    margin-bottom: 10px
+}
+
+.text-muted {
+    color: #919aa3 !important
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0
+}
+
+.f-w-600 {
+    font-weight: 600
+}
+
+.m-b-20 {
+    margin-bottom: 20px
+}
+
+.m-t-40 {
+    margin-top: 20px
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important
+}
+
+.m-b-10 {
+    margin-bottom: 10px
+}
+
+.m-t-40 {
+    margin-top: 20px
+}
+
+.user-card-full .social-link li {
+    display: inline-block
+}
+
+.user-card-full .social-link li a {
+    font-size: 20px;
+    margin: 0 10px 0 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out
+}</style>

@@ -1,0 +1,194 @@
+﻿@using BHDT.Models
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DHQ-Shop</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>B2 Shop</title>
+    <link rel="stylesheet" href="~/Content/asd.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/base.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/main.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/grid.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/responsive.css" />
+    <link rel="stylesheet" href="~/fonts/fontawesome-free-5.14.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/plugin.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/Content/hover.css" />
+
+</head>
+
+<body>
+    <!-- Block Element Modifier -->
+    <div class="app">
+        <header class="header">
+            @Html.Partial("~/Views/Shared/_LayoutDKDN.cshtml")
+
+            <!-- Sort bar on mobile -->
+
+        </header>
+
+        <div class="app__container">
+            <div class="grid wide">
+                <div class="row sm-gutter app__content">
+                    <div class="col l-2 m-0 c-0">
+                        <div class="category-pc">
+                            <nav class="category">
+                                @if (Session["email"] != null)
+                                {
+                                    TaiKhoan kh = (TaiKhoan)Session["email"];
+                                    <!-- Content category items -->
+                                    <ul class="category-list">
+                                        <li class="category-item category-item--active ">
+                                            <a href="@Url.Action("Prfile", "Home", new { idkh = kh.MaTK }, null)" class="category-item__link">Thông Tin Cá Nhân</a>
+
+                                        </li>
+                                        <li class="category-item category-item--active">
+                                            <a href="@Url.Action("DonChuaDuyet", "Home",new { idkh = kh.MaTK }, null)" class="category-item__link">Đơn Hàng</a>
+                                        </li>
+                                    </ul>
+                                }
+                                </nav>
+                        </div>
+                    </div>
+
+                    <div class="col l-10 m-12 c-12">
+
+                        @RenderBody()
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <footer class="footer ">
+            <div class="grid wide footer__content ">
+                <div class="row ">
+                    <div class="col l-2-4 m-4 c-6 ">
+                        <div class="footer__heading ">Chăm sóc khách hàng</div>
+                        <ul class="footer-list ">
+                            <li class="footer-item ">
+                                <a href=" " class="footer-item__link ">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer-item ">
+                                <a href=" " class="footer-item__link ">Minecraft-Shop</a>
+                            </li>
+                            <li class="footer-item ">
+                                <a href=" " class="footer-item__link ">Hướng dẫn mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6 ">
+                        <div class="footer__heading ">Giới thiệu</div>
+                        <ul class="footer-list ">
+                            <li class="footer-item ">
+                                <a href=" " class="footer-item__link ">Giới thiệu</a>
+                            </li>
+                            <li class="footer-item ">
+                                <a href=" " class="footer-item__link ">Tuyển dụng</a>
+                            </li>
+                            <li class="footer-item ">
+                                <a href=" " class="footer-item__link ">Điều khoản</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6 ">
+                        <div class="footer__heading ">Danh mục</div>
+                        <ul class="footer-list ">
+                            <li class="footer-item ">
+                                <a href=" " class="footer-item__link ">Đồ chơi</a>
+                            </li>
+                            <li class="footer-item ">
+                                <a href=" " class="footer-item__link ">Xe đua</a>
+                            </li>
+                            <li class="footer-item ">
+                                <a href=" " class="footer-item__link ">Gấu bông</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6 ">
+                        <div class="footer__heading ">Theo dõi chúng tôi</div>
+                        <ul class="footer-list ">
+                            <li class="footer-item ">
+                                <a href=" " class="footer-item__link ">
+                                    <i class="footer-item__icon fab fa-facebook "></i> Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item ">
+                                <a href=" " class="footer-item__link ">
+                                    <i class="footer-item__icon fab fa-instagram "></i> Instagram
+                                </a>
+                            </li>
+                            <li class="footer-item ">
+                                <a href=" " class="footer-item__link ">
+                                    <i class="footer-item__icon fab fa-twitter-square "></i> Twitter
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-8 c-12 ">
+                        <div class="footer__heading ">Vào cửa hàng trên ứng dụng</div>
+                        <div class="footer__download ">
+                            <img src="~/Images/pickaxe.png" alt="Download QR " class="footer__download-qr " />
+                            <div class="footer__download-apps ">
+                                <a href=" " class="footer__download-app-link ">
+                                    <img src="~/Images/google_play.png" alt="Google play " class="footer__download-app-img " />
+                                </a>
+                                <a href=" " class="footer__download-app-link ">
+                                    <img src="~/Images/app_store.png" alt="App store " class="footer__download-app-img " />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom ">
+                <div class="grid wide ">
+                    <p class="footer__text ">© 2020 - Bản quyền thuộc về Minecraft-Shop</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!--Modal layout-->
+
+</body>
+
+
+
+</html>
+<style>
+    textarea {
+        height: 20px;
+        width: 40%;
+        border: none;
+        border-bottom: 2px solid #aaa;
+        background-color: transparent;
+        margin-bottom: 10px;
+        resize: none;
+        outline: none;
+        transition: .5s
+    }
+
+    input[type="submit"] {
+        padding: 10px 15px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    input[type="submit"] {
+        color: #fff;
+        background-color: #273c75
+    }
+</style>

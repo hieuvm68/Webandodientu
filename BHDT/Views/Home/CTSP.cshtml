@@ -1,0 +1,626 @@
+﻿@model BHDT.Models.SanPham
+
+@{
+    ViewBag.Title = "CTSP";
+    Layout = "~/Views/Shared/_LayoutProduct.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="~/Areas/demo/Content/base.css">
+    <link rel="stylesheet" href="~/Areas/demo/Content/main.css">
+    <link rel="stylesheet" type="text/css" href="~/Areas/demo/Content/product-info.css" />
+    <link rel="stylesheet" type="text/css" href="~/Areas/demo/Content/grid.css" />
+    <link rel="stylesheet" type="text/css" href="~/Areas/demo/Content/responsive.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="~/fonts/fontawesome-free-5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    
+</head>
+
+<body>
+    <script src="~/Scripts/shop-libraries.js"></script>
+    <script src="~/Scripts/product-info.js"></script>
+
+    <div class="Product-container">
+        <!--Tạo từng mục hiển thị nội dung Grid product-->
+        <style>
+            .like {
+                color: #00000030;
+                cursor: pointer;
+                font-size: 1.2em;
+                margin: 0 5px 0 0;
+            }
+
+            .liked {
+                font-size: 1.2em;
+                margin: 0 5px 0 0;
+            }
+
+            i.liked-icon-fill {
+                color: #f63d30;
+                display: none;
+            }
+
+            .liked .liked-icon-fill {
+                display: inline-block;
+            }
+
+            .liked .liked-icon-empty {
+                display: none;
+            }
+        </style>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script>
+    $(document).ready(function () {
+        $(".like").click(function () {
+
+             @*@if (like_index >=0)
+             {
+                 like_index++;
+             }*@
+
+            $(this).toggleClass("liked");
+
+        });
+    });
+    $(document).ready(function () {
+        $(".liked").click(function () {
+             @*@if (like_index > 0)
+             {
+                 like_index--;
+             }
+             else if (like_index <= 0)
+             {
+                 like_index = 0;
+             }*@
+            $(this).toggleClass("like");
+
+        });
+    });
+    // xu li van chuyen drop down
+    /* Thêm hoặc xóa class show ra khỏi phần tử */
+    function myFunction(id) {
+        document.getElementById(id).classList.toggle("show");
+    }
+    //lấy tất cả các button menu
+    var buttons = document.getElementsByClassName('product__shipping-to-cities');
+    //lấy tất cả các thẻ chứa menu con
+    var contents = document.getElementsByClassName('web-address-picker');
+    //lặp qua tất cả các button menu và gán sự kiện
+    for (var i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener("click", function () {
+            //lấy value của button
+            var id = this.value;
+            //ẩn tất cả các menu con đang được hiển thị
+            for (var i = 0; i < contents.length; i++) {
+                contents[i].classList.remove("show");
+            }
+            //hiển thị menu vừa được click
+            myFunction(id);
+        });
+    }
+    //nếu click ra ngoài các button thì ẩn tất cả các menu con
+    window.addEventListener("click", function () {
+        if (!event.target.matches('.product__shipping-to-cities')) {
+            for (var i = 0; i < contents.length; i++) {
+                contents[i].classList.remove("show");
+            }
+        }
+    });
+
+    //// xu li tim kiem form van chuyen
+    //$(document).ready(function (e) {
+    //    $('.search-panel .dropdown-menu').find('a').click(function (e) {
+    //        e.preventDefault();
+    //        var param = $(this).attr("href").replace("#", "");
+    //        var concept = $(this).text();
+    //        $('.search-panel span#search_concept').text(concept);
+    //        $('.input-group #search_param').val(param);
+    //    });
+    //});
+
+        </script>
+
+
+
+
+        <div class="grid">
+            <div class="row sm-gutter product">
+                <!--phần left của row-product -->
+                <div class="col l-5 c-12">
+                    <div class="product-slide">
+
+                        <img src="@Url.Content(Model.HinhAnh)" data-unresolved="@Model.HinhAnh" class="product__img">
+
+
+                        <!--tạo Thẻ card giới thiệu product-->
+                        <div class="product__cards product__cards-mobile">
+
+
+                            <div class="product__cards-container">
+                                <div class="product__card-wrapper">
+                                    <div class="product__card">
+                                        <img src="@Url.Content("~/"+Model.HinhAnh)" class="product__card-img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__cards-container">
+                                <div class="product__card-wrapper">
+                                    <div class="product__card">
+                                        <img src="@Url.Content("~/"+Model.HinhAnh1)" class="product__card-img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__cards-container">
+                                <div class="product__card-wrapper">
+                                    <div class="product__card">
+                                        <img src="@Url.Content("~/"+Model.HinhAnh2)" class="product__card-img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__cards-container">
+                                <div class="product__card-wrapper">
+                                    <div class="product__card">
+                                        <img src="@Url.Content("~/"+Model.HinhAnh3)" class="product__card-img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__cards-container">
+                                <div class="product__card-wrapper">
+                                    <div class="product__card">
+                                        <img src="@Url.Content("~/"+Model.HinhAnh4)" class="product__card-img">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="product__cards-btn product__cards-btn--prev">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <button class="product__cards-btn product__cards-btn--next">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                            }
+                        </div>
+
+                        <!--Tạo icon kết nối chia sẻ (vd:facebook, google,..)-->
+                        <div class="product__actions hide-on-mobile-tablet">
+                            <div class="product__sharing-icons hide-on-mobile-tablet">
+                                <div class="text">Chia sẻ:</div>
+                                <a href="#" class="product__action-icon messenger">
+                                    <i class="fab fa-facebook-messenger"></i>
+                                </a>
+                                <a href="#" class="product__action-icon facebook">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="#" class="product__action-icon google">
+                                    <i class="fab fa-google-plus"></i>
+                                </a>
+                                <a href="#" class="product__action-icon pinterest">
+                                    <i class="fab fa-pinterest"></i>
+                                </a>
+                                <a href="#" class="product__action-icon twitter">
+                                    <i class="fab fa-twitter-square"></i>
+                                </a>
+                            </div>
+                            <div class="product__liking">
+                                <a class="like">
+                                    <i class="liked liked-icon-empty far fa-heart"></i>
+                                    <i class="liked liked-icon-fill fas fa-heart"></i>
+                                </a>
+
+                                @*<a class="text">Đã thích(@like_index.ToString())</a>*@
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--phần Right của row-product -->
+                <div class="col l-7 c-12">
+                    <div class="product-content">
+                        <!--tiêu đề sản phẩm-->
+                        <div class="product__title">
+                            <div class="label-loving">
+                                Yêu Thích
+                            </div>
+                            <span>
+                                @Model.TenSP
+                            </span>
+                        </div>
+                        <!--tình trạng sản phẩm-->
+                        <div class="product__status">
+                            <div class="product__status-rating">
+                                <div class="product__status-rating-point underscore">4.9</div>
+                                <div class="product__status-rating-stars">
+                                    <i class="product__status-rating-star fas fa-star"></i>
+                                    <i class="product__status-rating-star fas fa-star"></i>
+                                    <i class="product__status-rating-star fas fa-star"></i>
+                                    <i class="product__status-rating-star fas fa-star"></i>
+                                    <i class="product__status-rating-star fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="product__status-reviewing hide-on-mobile">
+                                <span class="product__status-reviewing-qnt underscore">78</span>
+                                <span class="product__status-text pr-text">Đánh Giá</span>
+                            </div>
+                            <div class="product__status-sold">
+                                <span class="product__status-sold-qnt">251</span>
+                                <span class="product__status-text pr-text">Đã Bán</span>
+                            </div>
+                            <div class="product__liking">
+                                <a class="like liked">
+                                    <i class="like-icon-empty far fa-heart"></i>
+                                    <i class="like-icon-fill fas fa-heart"></i>
+
+
+                                </a>
+                                @*<a class="text">@like_index.ToString()</a>*@
+                            </div>
+                        </div>
+                        <!--giá cả-->
+
+
+                        <div class="product__price">
+                            <div class="product__price-main">
+                                <span class="product__price-current">@Model.DonGia.Value.ToString("###,#đ")</span>
+                                @*<div class="product__price-current">
+                                        <span class="product__price-new">@tiensale.ToString("###,#đ")</span>
+                                        <span class="product__price-label bgr-orange">GIẢM @sale.ToString("#%")</span>
+                                    </div>*@
+                            </div>
+                        </div>
+                        <!--thiết kế sản phẩm cho mobile-->
+                        <div class="product__info">
+                            @*<div class="product__codes hide-on-mobile-tablet">
+                                    <label class="product__codes-label width-label">Mã Giảm Giá Của Shop</label>
+                                    <div class="product__codes-wrapper">
+                                        <div class="product__code">@sale.ToString("#%")</div>
+                                    </div>
+                                </div>
+
+                                <div class="product__combo hide-on-mobile-tablet">
+                                    <label class="product__combo-label width-label">Combo Khuyến Mãi</label>
+                                    <div class="product__combo-note"> @Html.DisplayFor(model => pro.UuDai)</div>
+                                </div>*@
+
+                            <div class="product__shipping">
+                                <label class="product__shipping-label width-label">Vận Chuyển</label>
+                                <div class="product__shipping-wrapper">
+                                    <div class="product__shipping-free">
+                                        <div class="product__shipping-free-icon-wrapper">
+                                            <i class="product__shipping-free-icon fas fa-truck-loading"></i>
+                                        </div>
+                                        <div class="product__shipping-free-wrapper">
+                                            <div class="product__shipping-free-title">Miễn Phí Vận Chuyển</div>
+                                            <div class="product__shipping-free-note">
+                                                Miễn Phí Vận Chuyển khi đơn đạt
+                                                giá trị tối thiểu
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="product__shipping-to">
+                                        <i class="product__shipping-to-icon-truck fas fa-truck"></i>
+                                        <div class="product__shipping-to-wrapper">
+                                            <div class="product__shipping-to-destination">
+                                                <label class="product__shipping-to-label">Vận Chuyển Tới</label>
+
+                                                <div class="product__shipping-to-cities" id="vanchuyen">
+                                                    <div class="flex items-center">
+                                                        <div class="_1xdYod">
+                                                            <div class="product__shipping-to-cities items-center">
+                                                                <span class="product__shipping-to-city">
+                                                                    Huyện Ba Vì, Hà
+                                                                    Nội
+                                                                </span>
+                                                                <i class="product__shipping-to-icon fas fa-chevron-down"></i>
+                                                            </div>
+                                                            <div class="web-address-picker" style="display:none;">
+                                                                <div class="web-address-picker__search-bar">
+                                                                    <input placeholder="tìm" value="">
+                                                                </div>
+                                                                <div class="web-address-picker__list-wrapper">
+                                                                    <ul class="web-address-picker__current-level-list" id="show">
+                                                                        <li class="web-address-picker__current-level-list-item">An Giang</li>
+                                                                        <li class="web-address-picker__current-level-list-item">An Giang</li>
+                                                                        <li class="web-address-picker__current-level-list-item">An Giang</li>
+                                                                    </ul>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="product__shipping-to-fee">
+                                                <label class="product__shipping-to-label">Phí Vận Chuyển</label>
+                                                <div class="product__shipping-to-fee-wrapper">
+                                                    <div class="product__shipping-to-fees">₫10.500</div>
+                                                    <i class="product__shipping-to-icon fas fa-chevron-down"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <!--<div class="product__qnt hide-on-mobile">
+                            <label class="product__qnt-label width-label">Số Lượng</label>
+                            <div class="shop__qnt-btns">
+                                <button class="shop__qnt-btn shop__qnt-btn--dec">
+                                    <i class="shop__qnt-btn-icon fas fa-minus"></i>
+                                </button>
+                                <input class="shop__qnt-input" type="text" value="1">
+                                <button class="shop__qnt-btn shop__qnt-btn--inc">
+                                    <i class="shop__qnt-btn-icon fas fa-plus"></i>
+                                </button>
+                            </div>-->
+                            @*<div class="product__qnt-note">
+                                    <span class="product__qnt-note-num">1100</span>
+                                    sản phẩm có sẵn
+                                </div>*@
+                            <!--</div>-->
+
+                            <div class="product-btns-main">
+                                <button class="product-btn-main product-btn-main__msg clear-btn hide-on-tablet">
+                                    <i class="product-btn-main__msg-icon far fa-comment-dots"></i>
+                                </button>
+                                @if (Session["Email"] == null)
+                                {
+
+                                    <button class="product-btn-main product-btn-main__adding">
+
+                                        <i class="product-btn-main__adding-icon fas fa-cart-plus"></i>
+                                        <span class="product-btn-main__text product-btn-main__adding-text hide-on-mobile">Thêm Vào Giỏ Hàng</span>
+
+                                    </button>
+                                }
+                                else
+                                {
+                                    <a href="@Url.Action("ThemGioHang", "GioHang", new { @MaSP = Model.MaSP, @strURL = Request.Url.ToString() })">
+                                        <button class="product-btn-main product-btn-main__adding">
+
+                                            <i class="product-btn-main__adding-icon fas fa-cart-plus"></i>
+                                            <span class="product-btn-main__text product-btn-main__adding-text hide-on-mobile">Thêm Vào Giỏ Hàng</span>
+
+                                        </button>
+                                    </a>
+                                }
+                                <button href="product-cart.html" class="product-btn-main product-btn-main__buying">
+                                    <span class="product-btn-main__text product-btn-main__buying-text">
+                                        Mua Ngay
+                                    </span>
+                                </button>
+
+                            </div>
+                        </div>
+                        <!--Thời hạn bảo hành-->
+                        <div class="product__guarantee-container">
+                            <a href="*" class="product__guarantee">
+                                <div class="product__guarantee-wrapper">
+                                    <span>
+                                        <i class="product__guarantee-icon fas fa-clipboard-check"></i>
+                                    </span>
+                                    <div class="product__guarantee-text">DHQ Shop Đảm Bảo</div>
+                                </div>
+                                <span class="product__guarantee-note">3 Ngày Trả Hàng / Hoàn Tiền</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="grid wide">
+            <div class="row sm-gutter product-content__side" style="padding-bottom: 25px;">
+                <!-- Product left content -->
+                <div class="product-content--left">
+                    <!-- Product details -->
+                    <div class="product-details">
+                        <div class="product-detail">
+                            <div class="product-detail__title">Chi tiết sản phẩm</div>
+                            <div class="product-details__wrapper">
+                                <div class="product-detail__wrapper">
+                                    <span class="product-detail__label">Danh Mục</span>
+                                    <div class="product-detail__links">
+                                        <a class="product-detail__link" href="/">
+                                            <span>Minecraft Shop</span>
+                                        </a>
+                                        <svg class="product-detail__icon" enable-background="new 0 0 11 11" viewBox="0 0 11 11" x="0" y="0" class="shopee-svg-icon _3kIvpP icon-arrow-right">
+                                            <path d="m2.5 11c .1 0 .2 0 .3-.1l6-5c .1-.1.2-.3.2-.4s-.1-.3-.2-.4l-6-5c-.2-.2-.5-.1-.7.1s-.1.5.1.7l5.5 4.6-5.5 4.6c-.2.2-.2.5-.1.7.1.1.3.2.4.2z">
+                                            </path>
+                                        </svg>
+                                        <a class="product-detail__link" href="/">
+                                            <span>Phụ kiện</span>
+                                        </a>
+                                        <svg class="product-detail__icon" enable-background="new 0 0 11 11" viewBox="0 0 11 11" x="0" y="0" class="shopee-svg-icon _3kIvpP icon-arrow-right">
+                                            <path d="m2.5 11c .1 0 .2 0 .3-.1l6-5c .1-.1.2-.3.2-.4s-.1-.3-.2-.4l-6-5c-.2-.2-.5-.1-.7.1s-.1.5.1.7l5.5 4.6-5.5 4.6c-.2.2-.2.5-.1.7.1.1.3.2.4.2z">
+                                            </path>
+                                        </svg>
+                                        <a class="product-detail__link" href="/">
+                                            <span>Balo</span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="product-detail__wrapper">
+                                    <span class="product-detail__label">Thương hiệu</span>
+                                    <a class="product-detail__link" href="/">
+                                        <span>No brand</span>
+                                    </a>
+                                </div>
+
+                                <div class="product-detail__wrapper">
+                                    <span class="product-detail__label">Chất liệu</span>
+                                    <span class="product-detail__text">Vải</span>
+                                </div>
+
+                                <div class="product-detail__wrapper">
+                                    <span class="product-detail__label">Xuất xứ</span>
+                                    <span class="product-detail__text">Mỹ</span>
+                                </div>
+
+                                <div class="product-detail__wrapper">
+                                    <span class="product-detail__label">Kho hàng</span>
+                                    <span class="product-detail__text">1911</span>
+                                </div>
+
+                                <div class="product-detail__wrapper">
+                                    <span class="product-detail__label">Gửi từ</span>
+                                    <span class="product-detail__text">Quận Hoàng Mai, Hà Nội</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-description">
+                            <div class="product-description__title">Mô tả sản phẩm</div>
+                            <span class="product-description__content">
+                                @Model.TenSP
+                                <span class="dots"> ...</span><span class="text-more hidden">
+                                    @Model.Mota
+                                </span>
+                            </span>
+                            <button class="read-more-btn clear-btn">
+                                <span class="read-more-btn__text">Xem thêm</span>
+                                <span class="read-more-btn__icon--down">
+                                    <i class="read-more-btn__icon fas fa-angle-down"></i>
+                                </span>
+                                <span class="read-more-btn__icon--up hidden">
+                                    <i class="read-more-btn__icon fas fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Product reviews -->
+                    <div class="product-reviews">
+                        <div class="product-reviews__header">ĐÁNH GIÁ SẢN PHẨM</div>
+                        <!-- Stars on mobile -->
+                        <div class="product-reviews__rating-mobile">
+                            <div class="product-reviews__rating-stars product-reviews__rating-stars-mobile">
+                                <i class="product-reviews__rating-star fas fa-star"></i>
+                                <i class="product-reviews__rating-star fas fa-star"></i>
+                                <i class="product-reviews__rating-star fas fa-star"></i>
+                                <i class="product-reviews__rating-star fas fa-star"></i>
+                                <i class="product-reviews__rating-star fas fa-star"></i>
+                            </div>
+                            <div class="product-reviews__rating-score-wrapper">
+                                <span class="product-reviews__rating-score">4.9</span><span class="product-reviews__rating-score-out-of">/5</span>
+                            </div>
+                            <div class="product-reviews__total">(44 đánh giá)</div>
+                        </div>
+
+                        <div class="product-reviews__container hide-on-mobile">
+                            <div class="product-reviews__rating">
+                                <div class="product-reviews__rating-score-wrapper">
+                                    <span class="product-reviews__rating-score">4.9</span>
+                                    <span class="product-reviews__rating-score-out-of"> trên 5 </span>
+                                </div>
+
+                                <div class="product-reviews__rating-stars">
+                                    <i class="product-reviews__rating-star fas fa-star"></i>
+                                    <i class="product-reviews__rating-star fas fa-star"></i>
+                                    <i class="product-reviews__rating-star fas fa-star"></i>
+                                    <i class="product-reviews__rating-star fas fa-star"></i>
+                                    <i class="product-reviews__rating-star fas fa-star"></i>
+                                </div>
+                            </div>
+
+                            <div class="product-reviews__filters">
+                                <div class="product-reviews__filter product-reviews__filter--active">tất cả</div>
+                                <div class="product-reviews__filter">5 Sao (0)</div>
+                                <div class="product-reviews__filter">4 Sao (0)</div>
+                                <div class="product-reviews__filter">3 Sao (0)</div>
+                                <div class="product-reviews__filter">2 Sao (0)</div>
+                                <div class="product-reviews__filter">1 Sao (0)</div>
+                                <div class="product-reviews__filter product-reviews__filter--comment">
+                                    Có Bình luận (0)
+                                </div>
+                                <div class="product-reviews__filter product-reviews__filter--photo">Có hình ảnh / video (0)</div>
+                            </div>
+                        </div>
+
+                        <div class="product-reviews__comments">
+                            <div class="product-reviews__comment">Rất tiếc, hiện chưa có bình luận nào</div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <script type="text/javascript">
+            function changeSlideThumb() {
+                let thumbCnt = document.querySelector('.product-slide'); 
+                let bgrThumb = thumbCnt.querySelector('.product__img');
+                let thumbs = thumbCnt.querySelectorAll('.product__card-img'); 
+
+                for (let thumb of thumbs) {
+                    thumb.onmouseover = () => {
+                        for (let thumb of thumbs) {
+                            (thumb.parentElement).style.border = '2px solid transparent';
+                        }
+
+                        (thumb.parentElement).style.border = '2px solid var(--var-color)';
+                        bgrThumb.style.opacity = '1';
+                        bgrThumb.setAttribute('src', thumb.getAttribute('src'));
+                    }
+                }
+            }
+
+            changeSlideThumb();
+        </script>
+        <script type="text/javascript">
+
+            function showMore() {
+                let proDesEl = document.querySelector('.product-description');
+                let dots = proDesEl.querySelector('.dots'); 
+                let textMore = proDesEl.querySelector('.text-more'); 
+                let readMoreBtn = proDesEl.querySelector('.read-more-btn');
+                let readMoreBtnText = proDesEl.querySelector('.read-more-btn__text'); 
+                let iconDown = readMoreBtn.querySelector('.read-more-btn__icon--down');
+                let iconUp = readMoreBtn.querySelector('.read-more-btn__icon--up'); 
+
+                readMoreBtn.onclick = () => {
+                    dots.classList.toggle('hidden');
+                    textMore.classList.toggle('hidden');
+                    iconDown.classList.toggle('hidden');
+                    iconUp.classList.toggle('hidden');
+                    readMoreBtnText.classList.toggle('text-show');
+
+
+                    if (readMoreBtnText.classList.contains('text-show')) {
+                        readMoreBtnText.innerHTML = 'Ẩn bớt';
+                    } else {
+                        readMoreBtnText.innerHTML = 'Xem thêm';
+                    }
+                }
+            }
+
+            showMore();
+        </script>
+
+
+
+
+    </div>
+</body>
+
+</html>
+
+
+

@@ -1,0 +1,32 @@
+﻿@using BHDT.Models
+@model IEnumerable<SanPham>
+<nav class="category">
+    <h3 class="category__heading">
+        <i class="category__heading-icon fas fa-list"></i> Danh Mục
+    </h3>
+    <ul class="category-list">
+        @foreach (var groupItem in Model.GroupBy(n => n.LoaiSanPham))
+        {
+            if (groupItem.Key != null)
+            {
+                <li class="category-item category-item--active ">
+                    <a href="@Url.Action("ListProductPartialLSP","Home",new { @MaloaiSP=groupItem.Key.MaLoaiSP})" class="category-item__link">@groupItem.Key.TenLoai </a>
+                    <ul class="category category-list1">
+                        @foreach (var item in groupItem.GroupBy(n => n.NhaSanXuat))
+                        {
+                            if (item.Key != null)
+                            {
+                                <li class=" category-item1">
+                                    <a href="@Url.Action("ListProductPartial","Home",new { @MaLoaiSP=groupItem.Key.MaLoaiSP,@MaTH=item.Key.MaNSX})" class="category-item__link1">@item.Key.TenNSX </a>
+                                </li>
+                            }
+                        }
+
+                    </ul>
+                </li>
+            }
+
+        }
+
+    </ul>
+</nav>

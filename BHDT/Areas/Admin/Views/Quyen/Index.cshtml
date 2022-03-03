@@ -1,0 +1,38 @@
+﻿@model IEnumerable<BHDT.Models.Quyen>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Quyền</h2>
+
+<p>
+    @Html.ActionLink("Thêm quyền", "ThemQuyen")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MaQuyen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TenQuyen)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaQuyen)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenQuyen)
+        </td>
+        <td>
+         
+        </td>
+    </tr>
+}
+
+</table>
